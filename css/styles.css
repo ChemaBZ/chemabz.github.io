@@ -121,9 +121,14 @@ body {
 	width: 40%;
 }
 
+/* div class="separator" */
+.separator {
+	height: 4.6em;
+}
+
 /* Section title (Education, Experience) */
 .icons-title {
-	font-size: 1.8em;
+	font-size: 1.6em;
 	color: #1a1a1a;
 }
 
@@ -270,6 +275,12 @@ body {
 	transform: scale(1.3);
 	filter: none;
 }
+
+
+/* Facts */
+.facts ul {list-style: none;}
+.facts i {width: 8%;}
+
 
 
 /* Profile-Portfolio toggle buttons */
