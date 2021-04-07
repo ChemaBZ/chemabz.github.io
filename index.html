@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<!-- Latest compiled and minified CSS -->
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-		
-		<!-- Bootstrap icons -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
 		<!-- Archivo CSS -->
         <link href="css/styles.css" rel="stylesheet" />
@@ -18,973 +16,229 @@
 		<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-		<!-- Latest compiled JavaScript -->
-		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-		
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 		<!-- Fonts -->
-		<!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
-		<!-- <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"> -->
-		<!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> -->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 		
 		<!-- Favicon -->
 		<link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
-		
-		<!-- AOS -->
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		
-		<title>CV | Chema Barberarena</title>
+
+		<title>Chema Barberarena | Currículum Vítae</title>
 
 	</head>
 
 
 	<body>
-	
-		<div class="first-row" data-aos="fade-in" data-aos-duration="2000">
-			
-			<div class="side-left text-center" data-aos="fade-left" data-aos-duration="800">
-				<!--
-				<div class="profile-pic pb-5">
-					<img src="./assets/img/profile.jpg" width="300" style="filter: grayscale(100%);"/>
-				</div>
-				-->
-				<!--
-				<div class="tab-buttons">
-					<div class="tab-button" alt="Profile"><a class="portfolio-button-blue disabled"><span><i class="fas fa-user-circle"></i></span></a></div>
-					<div class="tab-button" alt="Portfolio" data-toggle="tooltip" data-placement="top" title="Portfolio"><a class="portfolio-button" href="" target="_blank"><span><i class="fas fa-tasks"></i></span></a></div>
-				</div>
-				-->
-				<div>
-				<div class="cv-title display-4 p-4">Chema Barberarena</div>
-				<hr class="hr-separator"/>
-				<h3 class="cv-quote m-5 px-sm-5">
-					<i class="fas fa-quote-right mr-3"></i>
-					<span class="side-left-quote text-center">Un diseñador sabe que ha alcanzado la perfección no cuando no queda nada que añadir, sino cuando no queda nada que quitar.</span>
-					<i class="fas fa-quote-left ml-3"></i>
-				</h3>
-				<p class="blockquote-footer text-white mb-5"><cite>Antoine de Saint-Exupéry</cite></p>
-				<hr class="hr-separator"/>
-				</div>
+
+		<div class="container">
+		
+			<div class="header">
+				<h1 class="name mt-4 pl-3">Chema Barberarena</h1>
+				<h3 class="profession pl-3">Diseñador y Desarrollador Web</h3>
+				<hr class="hr-bar"/>
 			</div>
 			
-			<div class="side-medium" data-aos="fade-up" data-aos-duration="800">
-				<div class="personal-data">
-					<div class="row">
-						<div class="col-lg-4 font-weight-bold">Fecha de nacimiento</div>
-						<div class="col-lg-8">27 de Septiembre de 1984
-							<script>
-							function calculateAge(birthday) {
-								var birthday_arr = birthday.split("/");
-								var birthday_date = new Date(birthday_arr[2], birthday_arr[1] - 1, birthday_arr[0]);
-								var ageDifMs = Date.now() - birthday_date.getTime();
-								var ageDate = new Date(ageDifMs);
-								return Math.abs(ageDate.getUTCFullYear() - 1970);
-							}
-							var age = "(" + calculateAge("27/09/1984") + " años)";
-							document.write(age);
-							</script>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 font-weight-bold">Ocupación</div>
-						<div class="col-lg-8">Diseñador & Desarrollador Web</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 font-weight-bold">Localización</div>
-						<div class="col-lg-8">Almería (Andalucía, ES)</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 font-weight-bold">Estado civil</div>
-						<div class="col-lg-8">Casado</div>
-					</div>
-				</div>
-				
-				<div class="social-icons mt-5 mb-5">
-					<a href="https://www.linkedin.com/in/chemabarberarena/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-					<a href="mailto:jmbarberarena@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
-					<a href="https://wa.me/34636141801" target="_blank"><i class="fab fa-whatsapp"></i></a>
-				</div>
-				
-				<div class="characteristics text-uppercase font-weight-bold">Sobre mí</div>
-				<p class="personal-data-parr pt-3 ml-1 mr-1">Técnico Superior en Desarrollo de Aplicaciones Web.<br/>
-				Adicto a HTML5 y CSS3. Jugueteo, pruebo y aprendo de WordPress y con WordPress todo lo que puedo. 
-				Muy interesado en experiencia de usuario y SEO, y en todo aquello que sea sinónimo de creatividad y buenas prácticas en el diseño y desarrollo web.<br/>
-				Disfruté de varios años de estrecha relación con el atletismo y la comunicación, como blogger freelance y redactor/colaborador en distintas webs y organismos.<br/>
-				La música, la escritura y el dibujo me apasionan.<br/>
-				Actualmente, en búsqueda y con disponibilidad plena hacia nuevos proyectos profesionales. 
-				</p>
-				
-				<p><a class="btn btn-sm btn-danger" href="https://www.dropbox.com/s/1xumxdbol5zi2kc/JoseManuel_Barberarena_CV_html.pdf?dl=1" data-toggle="tooltip" title="Descargar versión en PDF" download="JoséManuel_Barberarena_CV.pdf">Descargar CV</a></p>
-				
-				<div class="chars p-5">
-					
-					<div class="pb-5">
-						<i class="fas fa-graduation-cap mr-3"></i>
-						<span class="icons-title text-uppercase font-weight-bold">Formación</span><br />
-						
-						<ul>
-							<li>
-								<div class="row mt-4">
-									<div class="col-lg-5">
-										<span class="education-title">IES Augusto González de Linares</span>
-										<span class="location-map-marker">Santander (Cantabria, ES)</span>
-										<span class="text-muted">Sep 2018 - Jun 2020</span>
-									</div>
-									<div class="col-lg-7">
-										<p class="education-title text-muted">Desarrollo de Aplicaciones Web</p>
-										<span>Ciclo Formativo de Grado Superior</span>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-					
-					
-					<div class="pb-5">
-						
-						<i class="fas fa-briefcase mr-3"></i>
-						<span class="icons-title text-uppercase font-weight-bold">Experiencia</span><br />
-						
-						<ul>
-							<li>
-								<div class="row mt-4">
-									<div class="col-lg-5">
-										<span class="education-title">Blogger en SoyCobarde.com</span>
-										<span class="text-muted">May 2013 - Jul 2018</span>
-									</div>
-									<div class="col-lg-7">
-										<span>Creador y administrador del blog de atletismo <a class="links" href="http://www.soycobarde.com/" target="_blank">soycobarde.com</a>.<br/>
-										Durante sus más de 5 años de vida, más de 200 artículos publicados y casi un millón y medio de páginas vistas.
-										</span>
-									</div>
-								</div>
-							</li>
-							<hr />
-							<li>
-								<div class="row mt-4">
-									<div class="col-lg-5">
-										<span class="education-title">Camping <q>Playa de Berria</q></span>
-										<span class="location-map-marker">Santoña (Cantabria, ES)</span>
-										<span class="text-muted">2013 - 2014 - 2015</span>
-									</div>
-									<div class="col-lg-7">
-										<span>Recepcionista en el Camping <q>Playa de Berria</q> en Santoña (Cantabria). Gestión de llegadas y salidas, labores administrativas y atención al público.</span>
-									</div>
-								</div>
-							</li>
-							<hr />
-							<li>
-								<div class="row mt-4">
-									<div class="col-lg-5">
-										<span class="education-title">Fontanería Vigan S.L.</span>
-										<span class="location-map-marker">Noja (Cantabria, ES)</span>
-										<span class="text-muted">Jun 2007 - Jun 2008</span>
-									</div>
-									<div class="col-lg-7">
-										<span>Aprendiz-peón de fontanería.</span>
-									</div>
-								</div>
-							</li>
-							<hr />
-							<li>
-								<div class="row mt-4">
-									<div class="col-lg-5">
-										<span class="education-title">Inmobiliaria TorreCarmona</span>
-										<span class="location-map-marker">Noja (Cantabria, ES)</span>
-										<span class="text-muted">Abr 2005 - Ago 2006</span>
-									</div>
-									<div class="col-lg-7">
-										<span>Administración y ventas en Inmobiliaria TorreCarmona (Noja, Cantabria).<br/>
-										Labores administrativas, atención al público, captación y ventas.</span>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-					
-					
-					
-					<div class="pb-5">
-						
-						<i class="fas fa-hands-helping mr-3"></i>
-						<span class="icons-title text-uppercase font-weight-bold">Colaboraciones</span><br />
-						
-						<ul>
-							<li>
-								<div class="row mt-4">
-									<div class="col-lg-5">
-										<span class="education-title">Real Federación Española de Atletismo (RFEA)</span>
-										<span class="location-map-marker"><a class="links" href="https://www.rfea.es/" target="_blank">rfea.es</a></span>
-										<span class="text-muted">Oct 2017 - Ago 2018</span>
-									</div>
-									<div class="col-lg-7">
-										<span>Articulista colaborador de la Real Federación Española de Atletismo (RFEA).<br/>
-										16 artículos publicados, incluyendo entrevistas, investigación, y un serial de diez capítulos sobre los mejores momentos de la Selección Española en los Campeonatos de Europa.
-										</span>
-									</div>
-								</div>
-							</li>
-							<hr />
-							<li>
-								<div class="row mt-4">
-									<div class="col-lg-5">
-										<span class="education-title">La Bolsa del Corredor</span>
-										<span class="location-map-marker"><a class="links" href="https://www.sport.es/labolsadelcorredor/" target="_blank">sport.es/labolsadelcorredor</a></span>
-										<span class="text-muted">Abr 2014 - Mar 2016</span>
-									</div>
-									<div class="col-lg-7">
-										<span>Articulista colaborador de la web de atletismo y running <q>La Bolsa del Corredor</q>.<br/>
-										Casi 50 artículos publicados, incluyendo entrevistas con atletas de prestigio.<br/>
-										Seguimiento del Campeonato del Mundo de Pekín'15.
-										</span>
-									</div>
-								</div>
-							</li>
-							<hr />
-							<li>
-								<div class="row mt-4">
-									<div class="col-lg-5">
-										<span class="education-title">Run Online</span>
-										<span class="location-map-marker"><a class="links" href="https://www.revistarunonline.com" target="_blank">revistarunonline.com</a></span>
-										<span class="text-muted">Ene 2014 - Jun 2014</span>
-									</div>
-									<div class="col-lg-7">
-										<span>Articulista colaborador de la web de atletismo y running <q>Run Online</q>.<br/>
-										12 artículos publicados, además de diversos textos colaborativos en diferentes ediciones de la revista online durante 2014.
-										</span>
-									</div>
-								</div>
-							</li>
-							<hr />
-							<li>
-								<div class="row mt-4">
-									<div class="col-lg-5">
-										<span class="education-title">Foroatletismo</span>
-										<span class="location-map-marker"><a class="links" href="https://www.foroatletismo.com" target="_blank">foroatletismo.com</a></span>
-										<span class="text-muted">Mar 2014 - Jun 2014</span>
-									</div>
-									<div class="col-lg-7">
-										<span>Articulista colaborador de la web de atletismo y running <q>Foroatletismo</q> (3 artículos).</span>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-					
-					
-					
-					<div class="pb-4">
-						
-						<i class="fas fa-plus mr-3"></i>
-						<span class="icons-title text-uppercase font-weight-bold">Experiencia adicional</span><br />
-						
-						<ul>
-							<li>
-								<div class="row mt-4">
-									<div class="col-lg-5">
-										<span class="education-title">London Marathon</span>
-										<span class="text-muted">2015</span>
-									</div>
-									<div class="col-lg-7">
-										<span>Labores de prensa (edición celebrada el domingo 26 de abril de 2015).</span>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="row mt-4">
-									<div class="col-lg-5">
-										<span class="education-title">10 km de Laredo</span>
-										<span class="text-muted">2014 a 2018</span>
-									</div>
-									<div class="col-lg-7">
-										<span>Colaborador. Labores de prensa y redacción.</span>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="row mt-4">
-									<div class="col-lg-5">
-										<span class="education-title">Media Maratón Solidaria <q>Villa de Santoña</q></span>
-										<span class="text-muted">2014 a 2017</span>
-									</div>
-									<div class="col-lg-7">
-										<span>Participación en el equipo organizativo. Labores organizativas, de redacción, vínculo con atletas de élite y prensa.</span>
-									</div>
-								</div>
-							</li>
-							<li>
-								<div class="row mt-4">
-									<div class="col-lg-5">
-										<span class="education-title">Media Maratón Azkoitia-Azpeitia</span>
-										<span class="text-muted">2016-2017</span>
-									</div>
-									<div class="col-lg-7">
-										<span>Colaborador. Labores de prensa y redacción.</span>
-									</div>
-								</div>
-							</li>
-						</ul>
-					</div>
-					
-					
-					
-				</div>
-				
+			<div class="links pb-4">
+				<!-- <div><span class="font-weight-bold"><i class="fas fa-map-marker-alt mr-2"></i><span>Almería</span></div> -->
+				<!-- <div><span class="font-weight-bold mr-2">Teléfono</span><span>(+34) 636 14 18 01</span></div> -->
+				<!-- <div><span class="font-weight-bold mr-2">E-mail</span><a href="mailto:jmbarberarena@gmail.com">jmbarberarena@gmail.com</a></div> -->
+				<!-- <div><span class="font-weight-bold mr-2">LinkedIn</span><a href="https://www.linkedin.com/in/chemabarberarena/">linkedin.com/in/chemabarberarena/</a></div> -->
+				<div><i class="fas fa-map-marker-alt mr-2"></i><span>Almería</span></div>
+				<div class="link-icon"><a href="https://wa.me/34636141801" title="WhatsApp" alt="WhatsApp"><i class="fab fa-whatsapp"></i></a></div>
+				<div><a href="mailto:jmbarberarena@gmail.com" title="E-mail" alt="E-mail"><i class="far fa-envelope"></i></a></div>
+				<div><a href="https://www.linkedin.com/in/chemabarberarena/" title="LinkedIn" alt="LinkedIn"><i class="fab fa-linkedin-in"></i></a></div>
 			</div>
 			
-			<div class="side-right" data-aos="fade-right" data-aos-duration="800">
+			<div class="row">
+		
+				<div class="main">
 				
-				<!-- <div class="characteristics text-uppercase font-weight-bold mb-5">Aptitudes</div> -->
-				<!-- <div class="progress-bars"> -->
-					<!-- <span class="text-muted mr-2"><i class="fas fa-smile"></i></span><span>Capacidad de trabajo</span> -->
-					<!-- <div class="progress" style="height: 25px;" > -->
-						<!-- <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div> -->
-					<!-- </div> -->
-					<!-- <span class="text-muted mr-2"><i class="fas fa-palette"></i></span><span>Diseño web</span> -->
-					<!-- <div class="progress" style="height: 25px;"> -->
-						<!-- <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div> -->
-					<!-- </div> -->
-					<!-- <span class="text-muted mr-2"><i class="fas fa-palette"></i></span><span>Maquetación web</span> -->
-					<!-- <div class="progress" style="height: 25px;"> -->
-						<!-- <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div> -->
-					<!-- </div> -->
-					<!-- <span class="text-muted mr-2"><i class="fas fa-code"></i></span><span>Desarrollo web</span> -->
-					<!-- <div class="progress" style="height: 25px;"> -->
-						<!-- <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div> -->
-					<!-- </div> -->
-					<!-- <span class="text-muted mr-2"><i class="fas fa-microchip"></i></span><span>Experiencia</span> -->
-					<!-- <div class="progress" style="height: 25px;"> -->
-						<!-- <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div> -->
-					<!-- </div> -->
-				<!-- </div> -->
-				
-				<!-- <br /><br /><br /> -->
-				
-				
-					<div class="characteristics text-uppercase font-weight-bold mb-5">Cursos</div>
-				
-					<div class="container pb-2" id="accordion"  data-aos="zoom-in-up" data-aos-offset="50" data-aos-duration="500">
-						<!-- Tab links -->
-
-						<p class="experience-text font-weight-lighter text-center">Haz click en cada categoría para ver los cursos, talleres y otras formaciones (contenidos, certificado obtenido, duración, profesionales...):</p>
-
-						<div class="tab">
-							<button class="tablinks" onclick="openCourse(event, 'cursos')"><i class="fas fa-crown"></i> Cursos</button>
-							<button class="tablinks" onclick="openCourse(event, 'cursos-no-reglados')"><i class="fas fa-trophy"></i> Cursos no reglados</button>
-							<button class="tablinks" onclick="openCourse(event, 'talleres')"><i class="fas fa-medal"></i> Talleres</button>
-							<button class="tablinks" onclick="openCourse(event, 'otros-cursos')"><i class="fas fa-award"></i> Otros</button>
-						</div>
-
-
-						<!-- Tab content -->
-
-						<!-- Cursos reglados -->
-						<div id="cursos" class="tabcontent">
-
-							<span onclick="this.parentElement.style.display='none'" class="topright"><i class="fas fa-times"></i></span><br/>
-							
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2021</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_reglado6" role="button" aria-expanded="false" aria-controls="collapseExample_reglado6">
-									<div class="nombre_curso ml-5">Excel Total - VBA, tablas dinámicas, dashboards y +</div>
-								</a>
-								<div class="collapse" id="collapseExample_reglado6" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://www.udemy.com/course/excel-total-de-nada-a-todo-incluye-bva-y-macros/" target="_blank" title="Ver curso">Udemy</a></span>
-										<span><i class="fas fa-medal mr-3"></i> <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-0417b73c-db56-497e-9a5b-3de350bfceaf.jpg" target="_blank" title="Ver certificado">Certificado</a></span>
-										<span><i class="far fa-clock mr-3"></i> 30 horas</span>
-										<span><i class="fas fa-user mr-3"></i> Federico Garay
-											<a class="mr-1 ml-1" href="https://escueladirecta.com/" target="_blank" title="Web de Federico Garay"><i class="fas fa-link"></i></a>
-											<a class="mr-1 ml-1" href="https://twitter.com/escueladirecta" target="_blank" title="Twitter de Federico Garay"><i class="fab fa-twitter"></i></a>
-											<a class="mr-1 ml-1" href="https://www.linkedin.com/in/fede-garay-escuela-directa/" target="_blank" title="LinkedIn de Federico Garay"><i class="fab fa-linkedin-in"></i></a>
-											<a class="mr-1 ml-1" href="https://www.youtube.com/channel/UCTb2jfffHb3dPDH4f5W8S9w" target="_blank" title="YouTube de Federico Garay"><i class="fab fa-youtube"></i></a>
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2020</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_reglado5" role="button" aria-expanded="false" aria-controls="collapseExample_reglado5">
-									<div class="nombre_curso ml-5">Curso de jQuery</div>
-								</a>
-								<div class="collapse" id="collapseExample_reglado5" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://openwebinars.net/cursos/jquery/" target="_blank" title="Ver curso">OpenWebinars</a></span>
-										<span><i class="fas fa-medal mr-3"></i> <a href="https://openwebinars.net/cert/DD6gr" target="_blank" title="Ver certificado">Certificado</a></span>
-										<span><i class="far fa-clock mr-3"></i> 12 horas</span>
-										<span><i class="fas fa-user mr-3"></i> Juan Diego Pérez
-											<a class="mr-1 ml-1" href="https://twitter.com/pekechis" target="_blank" title="Twitter de Juan Diego Pérez"><i class="fab fa-twitter"></i></a>
-											<a class="mr-1 ml-1" href="https://www.linkedin.com/in/juandiegoperez/" target="_blank" title="LinkedIn de Juan Diego Pérez"><i class="fab fa-linkedin-in"></i></a>
-											<a class="mr-1 ml-1" href="https://github.com/pekechis" target="_blank" title="Github de Juan Diego Pérez"><i class="fab fa-github"></i></a>
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2020</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_reglado4" role="button" aria-expanded="false" aria-controls="collapseExample_reglado4">
-									<div class="nombre_curso ml-5">Bootstrap 4: Maquetación Responsive y Layout</div>
-								</a>
-								<div class="collapse" id="collapseExample_reglado4" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://openwebinars.net/cursos/bootstrap-4-layout/" target="_blank" title="Ver curso">OpenWebinars</a></span>
-										<span><i class="fas fa-medal mr-3"></i> <a href="https://openwebinars.net/cert/g2QOk" target="_blank" title="Ver certificado">Certificado</a></span>
-										<span><i class="far fa-clock mr-3"></i> 12 horas</span>
-										<span><i class="fas fa-user mr-3"></i> Juan Diego Pérez
-											<a class="mr-1 ml-1" href="https://twitter.com/pekechis" target="_blank" title="Twitter de Juan Diego Pérez"><i class="fab fa-twitter"></i></a>
-											<a class="mr-1 ml-1" href="https://www.linkedin.com/in/juandiegoperez/" target="_blank" title="LinkedIn de Juan Diego Pérez"><i class="fab fa-linkedin-in"></i></a>
-											<a class="mr-1 ml-1" href="https://github.com/pekechis" target="_blank" title="Github de Juan Diego Pérez"><i class="fab fa-github"></i></a>
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2020</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_reglado3" role="button" aria-expanded="false" aria-controls="collapseExample_reglado3">
-									<div class="nombre_curso ml-5">Diseño de plantillas web</div>
-								</a>
-								<div class="collapse" id="collapseExample_reglado3" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://openwebinars.net/cursos/diseno-plantillas-web/" target="_blank" title="Ver curso">OpenWebinars</a></span>
-										<span><i class="fas fa-medal mr-3"></i> <a href="https://openwebinars.net/cert/03jKz" target="_blank" title="Ver certificado">Certificado</a></span>
-										<span><i class="far fa-clock mr-3"></i> 5 horas</span>
-										<span><i class="fas fa-user mr-3"></i> Nadia Prida
-											<a class="mr-1 ml-1" href="https://www.nadiaprd.com/" target="_blank" title="Web de Nadia Prida"><i class="fas fa-link"></i></a>
-											<a class="mr-1 ml-1" href="https://twitter.com/PRDNadia" target="_blank" title="Twitter de Nadia Prida"><i class="fab fa-twitter"></i></a>
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2020</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_reglado2" role="button" aria-expanded="false" aria-controls="collapseExample_reglado2">
-									<div class="nombre_curso ml-5">Flexbox y CSS Grid</div>
-								</a>
-								<div class="collapse" id="collapseExample_reglado2" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://openwebinars.net/cursos/flexbox-css-grid/" target="_blank" title="Ver curso">OpenWebinars</a></span>
-										<span><i class="fas fa-medal mr-3"></i> <a href="https://openwebinars.net/cert/lPDQM" target="_blank" title="Ver certificado">Certificado</a></span>
-										<span><i class="far fa-clock mr-3"></i> 12 horas</span>
-										<span><i class="fas fa-user mr-3"></i> Juan Diego Pérez
-											<a class="mr-1 ml-1" href="https://twitter.com/pekechis" target="_blank" title="Twitter de Juan Diego Pérez"><i class="fab fa-twitter"></i></a>
-											<a class="mr-1 ml-1" href="https://www.linkedin.com/in/juandiegoperez/" target="_blank" title="LinkedIn de Juan Diego Pérez"><i class="fab fa-linkedin-in"></i></a>
-											<a class="mr-1 ml-1" href="https://github.com/pekechis" target="_blank" title="Github de Juan Diego Pérez"><i class="fab fa-github"></i></a>
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2020</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_reglado1" role="button" aria-expanded="false" aria-controls="collapseExample_reglado1">
-									<div class="nombre_curso ml-5">Responsive Web Design</div>
-								</a>
-								<div class="collapse" id="collapseExample_reglado1" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://openwebinars.net/cursos/responsive-web-design/" target="_blank" title="Ver curso">OpenWebinars</a></span>
-										<span><i class="fas fa-medal mr-3"></i> <a href="https://openwebinars.net/cert/YwQgZ" target="_blank" title="Ver certificado">Certificado</a></span>
-										<span><i class="far fa-clock mr-3"></i> 12 horas</span>
-										<span><i class="fas fa-user mr-3"></i> Juan Diego Pérez
-											<a class="mr-1 ml-1" href="https://twitter.com/pekechis" target="_blank" title="Twitter de Juan Diego Pérez"><i class="fab fa-twitter"></i></a>
-											<a class="mr-1 ml-1" href="https://www.linkedin.com/in/juandiegoperez/" target="_blank" title="LinkedIn de Juan Diego Pérez"><i class="fab fa-linkedin-in"></i></a>
-											<a class="mr-1 ml-1" href="https://github.com/pekechis" target="_blank" title="Github de Juan Diego Pérez"><i class="fab fa-github"></i></a>
-										</span>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-
-						<!-- Cursos no reglados -->
-						<div id="cursos-no-reglados" class="tabcontent">
-
-							<span onclick="this.parentElement.style.display='none'" class="topright"><i class="fas fa-times"></i></span><br/>
-							
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2020</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_noreglado8" role="button" aria-expanded="false" aria-controls="collapseExample_noreglado8">
-									<div class="nombre_curso ml-5">Principios básicos de SEO</div>
-								</a>
-								<div class="collapse" id="collapseExample_noreglado8" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://www.domestika.org/es/courses/512-principios-basicos-de-seo" target="_blank" title="Ver curso">Domestika</a></span>
-										<span><i class="fas fa-certificate mr-3"></i> <a href="https://www.domestika.org/es/certificates/2378efc922e90341eb754e6604bf9bb9" target="_blank" title="Ver certificado">Certificado</a></span>
-										<span><i class="far fa-clock mr-3"></i> 3 horas</span>
-										<span><i class="fas fa-user mr-3"></i> Natzir Turrado
-											<a class="mr-1 ml-1" href="https://www.analistaseo.es/" target="_blank" title="Web de Natzir Turrado"><i class="fas fa-link"></i></a>
-											<a class="mr-1 ml-1" href="https://twitter.com/natzir9" target="_blank" title="Twitter de Natzir Turrado"><i class="fab fa-twitter"></i></a>
-											<a class="mr-1 ml-1" href="https://www.linkedin.com/in/natzir/" target="_blank" title="LinkedIn de Natzir Turrado"><i class="fab fa-linkedin-in"></i></a>
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2020</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_noreglado7" role="button" aria-expanded="false" aria-controls="collapseExample_noreglado7">
-									<div class="nombre_curso ml-5">Creación de membership sites con WordPress</div>
-								</a>
-								<div class="collapse" id="collapseExample_noreglado7" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://www.domestika.org/es/courses/259-creacion-de-membership-sites-con-wordpress" target="_blank" title="Ver curso">Domestika</a></span>
-										<span><i class="fas fa-certificate mr-3"></i> <a href="https://www.domestika.org/es/certificates/c3a11678bc23aa5492acc01a4ff0bc1f" target="_blank" title="Ver certificado">Certificado</a></span>
-										<span><i class="far fa-clock mr-3"></i> 3 horas</span>
-										<span><i class="fas fa-user mr-3"></i> Joan Boluda
-											<a class="mr-1 ml-1" href="https://boluda.com/" target="_blank" title="Web de Joan Boluda"><i class="fas fa-link"></i></a>
-											<a class="mr-1 ml-1" href="https://twitter.com/joanboluda" target="_blank" title="Twitter de Joan Boluda"><i class="fab fa-twitter"></i></a>
-											<a class="mr-1 ml-1" href="https://www.linkedin.com/in/joanboluda/" target="_blank" title="LinkedIn de Joan Boluda"><i class="fab fa-linkedin-in"></i></a>
-											<a class="mr-1 ml-1" href="https://github.com/boluda" target="_blank" title="Github de Joan Boluda"><i class="fab fa-github"></i></a>
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2020</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_noreglado6" role="button" aria-expanded="false" aria-controls="collapseExample_noreglado6">
-									<div class="nombre_curso ml-5">Creación de una tienda online en WordPress</div>
-								</a>
-								<div class="collapse" id="collapseExample_noreglado6" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://www.domestika.org/es/courses/80-creacion-de-una-tienda-online-en-wordpress" target="_blank" title="Ver curso">Domestika</a></span>
-										<span><i class="fas fa-certificate mr-3"></i> <a href="https://www.domestika.org/es/certificates/0c567c851369158f296458fbf31b5b3e" target="_blank" title="Ver certificado">Certificado</a></span>
-										<span><i class="far fa-clock mr-3"></i> 4 horas</span>
-										<span><i class="fas fa-user mr-3"></i> Joan Boluda
-											<a class="mr-1 ml-1" href="https://boluda.com/" target="_blank" title="Web de Joan Boluda"><i class="fas fa-link"></i></a>
-											<a class="mr-1 ml-1" href="https://twitter.com/joanboluda" target="_blank" title="Twitter de Joan Boluda"><i class="fab fa-twitter"></i></a>
-											<a class="mr-1 ml-1" href="https://www.linkedin.com/in/joanboluda/" target="_blank" title="LinkedIn de Joan Boluda"><i class="fab fa-linkedin-in"></i></a>
-											<a class="mr-1 ml-1" href="https://github.com/boluda" target="_blank" title="Github de Joan Boluda"><i class="fab fa-github"></i></a>
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2020</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_noreglado5" role="button" aria-expanded="false" aria-controls="collapseExample_noreglado5">
-									<div class="nombre_curso ml-5">Desarrollo de temas en WordPress</div>
-								</a>
-								<div class="collapse" id="collapseExample_noreglado5" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://www.domestika.org/es/courses/406-desarrollo-de-temas-de-wordpress" target="_blank" title="Ver curso">Domestika</a></span>
-										<span><i class="fas fa-certificate mr-3"></i> <a href="https://www.domestika.org/es/certificates/e633d9a28c970750c1b3687b4c9402e7" target="_blank" title="Ver certificado">Certificado</a></span>
-										<span><i class="far fa-clock mr-3"></i> 4 horas</span>
-										<span><i class="fas fa-user mr-3"></i> Ignacio Cruz
-											<a class="mr-1 ml-1" href="https://igmoweb.com/" target="_blank" title="Web de Ignacio Cruz"><i class="fas fa-link"></i></a>
-											<a class="mr-1 ml-1" href="https://twitter.com/igmoweb" target="_blank" title="Twitter de Ignacio Cruz"><i class="fab fa-twitter"></i></a>
-											<a class="mr-1 ml-1" href="https://www.linkedin.com/in/igmoweb/" target="_blank" title="LinkedIn de Ignacio Cruz"><i class="fab fa-linkedin-in"></i></a>
-											<a class="mr-1 ml-1" href="https://github.com/igmoweb" target="_blank" title="Github de Ignacio Cruz"><i class="fab fa-github"></i></a>
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2020</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_noreglado4" role="button" aria-expanded="false" aria-controls="collapseExample_noreglado4">
-									<div class="nombre_curso ml-5">Técnicas de desarrollo web con HTML5 y CSS3</div>
-								</a>
-								<div class="collapse" id="collapseExample_noreglado4" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://www.domestika.org/es/courses/99-tecnicas-de-desarrollo-web-con-html5-y-css3" target="_blank" title="Ver curso">Domestika</a></span>
-										<span><i class="fas fa-certificate mr-3"></i> <a href="https://www.domestika.org/es/certificates/a8305a7e1506995babed3401f6379fa3" target="_blank" title="Ver certificado">Certificado</a></span>
-										<span><i class="far fa-clock mr-3"></i> 3 horas</span>
-										<span><i class="fas fa-user mr-3"></i> Marta Armada
-											<a class="mr-1 ml-1" href="https://swwweet.com/" target="_blank" title="Web de Marta Armada"><i class="fas fa-link"></i></a>
-											<a class="mr-1 ml-1" href="https://twitter.com/martuishere" target="_blank" title="Twitter de Marta Armada"><i class="fab fa-twitter"></i></a>
-											<a class="mr-1 ml-1" href="https://github.com/martuishere" target="_blank" title="Github de Marta Armada"><i class="fab fa-github"></i></a>
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2020</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_noreglado3" role="button" aria-expanded="false" aria-controls="collapseExample_noreglado3">
-									<div class="nombre_curso ml-5">Creación de una web profesional con WordPress</div>
-								</a>
-								<div class="collapse" id="collapseExample_noreglado3" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://www.domestika.org/es/courses/112-creacion-de-una-web-profesional-con-wordpress" target="_blank" title="Ver curso">Domestika</a></span>
-										<span><i class="fas fa-certificate mr-3"></i> <a href="https://www.domestika.org/es/certificates/90adfb97908267677e65195143cf02ae" target="_blank" title="Ver certificado">Certificado</a></span>
-										<span><i class="far fa-clock mr-3"></i> 5 horas</span>
-										<span><i class="fas fa-user mr-3"></i> Ignacio Cruz
-											<a class="mr-1 ml-1" href="https://igmoweb.com/" target="_blank" title="Web de Ignacio Cruz"><i class="fas fa-link"></i></a>
-											<a class="mr-1 ml-1" href="https://twitter.com/igmoweb" target="_blank" title="Twitter de Ignacio Cruz"><i class="fab fa-twitter"></i></a>
-											<a class="mr-1 ml-1" href="https://www.linkedin.com/in/igmoweb/" target="_blank" title="LinkedIn de Ignacio Cruz"><i class="fab fa-linkedin-in"></i></a>
-											<a class="mr-1 ml-1" href="https://github.com/igmoweb" target="_blank" title="Github de Ignacio Cruz"><i class="fab fa-github"></i></a>
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2020</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_noreglado2" role="button" aria-expanded="false" aria-controls="collapseExample_noreglado2">
-									<div class="nombre_curso ml-5">Introducción a la Programación en JavaScript</div>
-								</a>
-								<div class="collapse" id="collapseExample_noreglado2" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://www.domestika.org/es/courses/390-introduccion-a-la-programacion-en-javascript" target="_blank" title="Ver curso">Domestika</a></span>
-										<span><i class="fas fa-certificate mr-3"></i> <a href="https://www.domestika.org/es/certificates/aadd42d1faf4c9b84ed8adb853e8f983" target="_blank" title="Ver certificado">Certificado</a></span>
-										<span><i class="far fa-clock mr-3"></i> 3 horas</span>
-										<span><i class="fas fa-user mr-3"></i> Javier Usobiaga
-											<a class="mr-1 ml-1" href="https://swwweet.com/" target="_blank" title="Web de Javier Usobiaga"><i class="fas fa-link"></i></a>
-											<a class="mr-1 ml-1" href="https://twitter.com/htmlboy" target="_blank" title="Twitter de Javier Usobiaga"><i class="fab fa-twitter"></i></a>
-											<a class="mr-1 ml-1" href="https://www.linkedin.com/in/javier-usobiaga-78b153101/" target="_blank" title="LinkedIn de Javier Usobiaga"><i class="fab fa-linkedin-in"></i></a>
-											<a class="mr-1 ml-1" href="https://github.com/htmlboy" target="_blank" title="Github de Javier Usobiaga"><i class="fab fa-github"></i></a>
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2020</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_noreglado1" role="button" aria-expanded="false" aria-controls="collapseExample_noreglado1">
-									<div class="nombre_curso ml-5">Introducción al Desarrollo Web con PHP</div>
-								</a>
-								<div class="collapse" id="collapseExample_noreglado1" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://www.domestika.org/es/courses/405-introduccion-al-desarrollo-web-con-php" target="_blank" title="Ver curso">Domestika</a></span>
-										<span><i class="fas fa-certificate mr-3"></i> <a href="https://www.domestika.org/es/certificates/a055575f963fe0e7f00d633b964276a8" target="_blank" title="Ver certificado">Certificado</a></span>
-										<span><i class="far fa-clock mr-3"></i> 5 horas</span>
-										<span><i class="fas fa-user mr-3"></i> Ignacio Cruz
-											<a class="mr-1 ml-1" href="https://igmoweb.com/" target="_blank" title="Web de Ignacio Cruz"><i class="fas fa-link"></i></a>
-											<a class="mr-1 ml-1" href="https://twitter.com/igmoweb" target="_blank" title="Twitter de Ignacio Cruz"><i class="fab fa-twitter"></i></a>
-											<a class="mr-1 ml-1" href="https://www.linkedin.com/in/igmoweb/" target="_blank" title="LinkedIn de Ignacio Cruz"><i class="fab fa-linkedin-in"></i></a>
-											<a class="mr-1 ml-1" href="https://github.com/igmoweb" target="_blank" title="Github de Ignacio Cruz"><i class="fab fa-github"></i></a>
-										</span>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-
-						<!-- Talleres -->
-						<div id="talleres" class="tabcontent">
-
-							<span onclick="this.parentElement.style.display='none'" class="topright"><i class="fas fa-times"></i></span><br/>
-
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2020</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_taller2" role="button" aria-expanded="false" aria-controls="collapseExample_taller2">
-									<div class="nombre_curso ml-5">Mejorando la caché de tu WordPress</div>
-								</a>
-								<div class="collapse" id="collapseExample_taller2" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://openwebinars.net/cursos/wordpress-cache/" target="_blank" title="Ver curso">OpenWebinars</a></span>
-										<span><i class="far fa-clock mr-3"></i> 1 hora</span>
-										<span><i class="fas fa-user mr-3"></i> Mariano Pérez Caro
-											<a class="mr-1 ml-1" href="https://twitter.com/mpc" target="_blank" title="Twitter de Mariano Pérez"><i class="fab fa-twitter"></i></a>
-											<a class="mr-1 ml-1" href="https://www.linkedin.com/in/marianoperez/" target="_blank" title="LinkedIn de Mariano Pérez"><i class="fab fa-linkedin-in"></i></a>
-											<a class="mr-1 ml-1" href="https://github.com/mpc" target="_blank" title="Github de Mariano Pérez"><i class="fab fa-github"></i></a>
-										</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2020</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_taller1" role="button" aria-expanded="false" aria-controls="collapseExample_taller1">
-									<div class="nombre_curso ml-5">Transformaciones, transiciones y animaciones con CSS3</div>
-								</a>
-								<div class="collapse" id="collapseExample_taller1" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://openwebinars.net/cursos/animaciones-css3/" target="_blank" title="Ver curso">OpenWebinars</a></span>
-										<span><i class="far fa-clock mr-3"></i> 1 hora</span>
-										<span><i class="fas fa-user mr-3"></i> Juan Diego Pérez
-											<a class="mr-1 ml-1" href="https://twitter.com/pekechis" target="_blank" title="Twitter de Juan Diego Pérez"><i class="fab fa-twitter"></i></a>
-											<a class="mr-1 ml-1" href="https://www.linkedin.com/in/juandiegoperez/" target="_blank" title="LinkedIn de Juan Diego Pérez"><i class="fab fa-linkedin-in"></i></a>
-											<a class="mr-1 ml-1" href="https://github.com/pekechis" target="_blank" title="Github de Juan Diego Pérez"><i class="fab fa-github"></i></a>
-										</span>
-									</div>
-								</div>
-							</div>
-
-						</div>
-
-
-						<!-- Más formación complementaria -->
-						<div id="otros-cursos" class="tabcontent">
-
-							<span onclick="this.parentElement.style.display='none'" class="topright"><i class="fas fa-times"></i></span><br/>
-
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2020</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_otroscursos6" role="button" aria-expanded="false" aria-controls="collapseExample_otroscursos6">
-									<div class="nombre_curso ml-5">Retrato realista con lápiz de grafito</div>
-								</a>
-								<div class="collapse" id="collapseExample_otroscursos6" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://www.domestika.org/es/courses/264-retrato-realista-con-lapiz-de-grafito" target="_blank" title="Ver curso">Domestika</a></span>
-										<span><i class="fas fa-certificate mr-3"></i> <a href="https://www.domestika.org/es/certificates/1e4b10e5553a4d495c18e713c53d508a" target="_blank" title="Ver certificado">Certificado</a></span>
-										<span><i class="far fa-clock mr-3"></i> 10 horas</span>
-										<span><i class="fas fa-user mr-3"></i> Diego Catalán Amilivia
-											<a class="mr-1 ml-1" href="https://diegocatalan.com/" target="_blank" title="Web de Diego Catalán"><i class="fas fa-link"></i></a>
-											<a class="mr-1 ml-1" href="https://www.linkedin.com/in/diego-catalán-amilivia/" target="_blank" title="LinkedIn de Diego Catalán"><i class="fab fa-linkedin-in"></i></a>
-											<a class="mr-1 ml-1" href="https://www.instagram.com/diegocatalanamilivia/" target="_blank" title="Instagram de Diego Catalán"><i class="fab fa-instagram"></i></a>
-										</span>
-									</div>
-								</div>
-							</div>
-							
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2019</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_otroscursos5" role="button" aria-expanded="false" aria-controls="collapseExample_otroscursos5">
-									<div class="nombre_curso ml-5">Taller Teórico-Práctico Primeros Auxilios</div>
-								</a>
-								<div class="collapse" id="collapseExample_otroscursos5" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="http://enfermeriacantabria.com/enfermeriacantabria/web/fundacion" target="_blank" title="Sitio web de Fundación Enfermería Cantabria">FECAN</a> + <a href="http://www.enfermeriacantabria.com/enfermeriacantabria/web" target="_blank" title="Sitio web de Colegio de Enfermería de Cantabria">Colegio Enfermería Cantabria</a></span>
-										<span><i class="far fa-clock mr-3"></i> 2 horas</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2018</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_otroscursos4" role="button" aria-expanded="false" aria-controls="collapseExample_otroscursos4">
-									<div class="nombre_curso ml-5">Introducción al PowerPoint para Personal Sanitario</div>
-								</a>
-								<div class="collapse" id="collapseExample_otroscursos4" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://medicarama.com/" target="_blank" title="Sitio web de Medicarama">Medicarama</a></span>
-										<span><i class="far fa-clock mr-3"></i> 20 horas</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2012</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_otroscursos3" role="button" aria-expanded="false" aria-controls="collapseExample_otroscursos3">
-									<div class="nombre_curso ml-5">Curso de Seguridad Alimentaria y Manipulador de Alimentos</div>
-								</a>
-								<div class="collapse" id="collapseExample_otroscursos3" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://www.empleacantabria.es/" target="_blank" title="Sitio web del Servicio Cántabro de Empleo">EMCAN</a></span>
-										<span><i class="far fa-clock mr-3"></i> 6 horas</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2009</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_otroscursos2" role="button" aria-expanded="false" aria-controls="collapseExample_otroscursos2">
-									<div class="nombre_curso ml-5">Taller de Entrevista - Programa OPEAS - Búsqueda Activa de Empleo</div>
-								</a>
-								<div class="collapse" id="collapseExample_otroscursos2" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://www.empleacantabria.es/" target="_blank" title="Sitio web del Servicio Cántabro de Empleo">EMCAN</a></span>
-										<span><i class="far fa-clock mr-3"></i> 24 horas</span>
-									</div>
-								</div>
-							</div>
-
-							<div class="clearfix mb-2">
-								<div class="date-experience float-left">2005</div>
-								<a class="" data-toggle="collapse" href="#collapseExample_otroscursos1" role="button" aria-expanded="false" aria-controls="collapseExample_otroscursos1">
-									<div class="nombre_curso ml-5">Título de Vendedor Técnico</div>
-								</a>
-								<div class="collapse" id="collapseExample_otroscursos1" aria-labelledby="nombre_curso" data-parent="#accordion">
-									<div class="card card-body experience-text">
-										<span><i class="fas fa-link mr-3"></i> <a href="https://www.audiolis.com/" target="_blank" title="Sitio web de AudioLis">Centro AudioLis</a></span>
-										<span><i class="far fa-clock mr-3"></i> 156 horas</span>
-									</div>
-								</div>
-							</div>
-
+					<div class="section-box">
+						<div class="title-heading"><i class="fas fa-user mr-2"></i>Sobre mí</div>
+						<div class="normal-text">Técnico Superior en Desarrollo de Aplicaciones Web.<br/>
+							Adicto a HTML5 y CSS3. Jugueteo, pruebo y aprendo de WordPress y con WordPress todo lo que puedo. 
+							Muy interesado en experiencia de usuario y SEO, y en todo aquello que sea sinónimo de creatividad y buenas prácticas en el diseño y desarrollo web.<br/>
+							Disfruté de varios años de estrecha relación con el atletismo y la comunicación, como blogger freelance y redactor/colaborador en distintas webs y organismos.<br/>
+							La música, la escritura y el dibujo me apasionan.<br/>
+							Actualmente, en búsqueda y con disponibilidad plena hacia nuevos proyectos profesionales.
 						</div>
 					</div>
-				
-				
-				
-				<div class="separator"></div>
-				
-				
-				
-				<div class="characteristics text-uppercase font-weight-bold mb-5">Proyectos</div>
-				
-				<ul>
-					<li>
-						<div class="row mt-4">
-							<div class="col-lg-5">
-								<span class="education-title">losintrusosdelsavoy.com</span>
-								<span class="text-muted">May 2020 - Actualidad</span>
-							</div>
-							<div class="col-lg-7">
-								<p class="text-muted"><i class="fas fa-wrench mr-3"></i>WordPress + WooCommerce</p>
-								<span><a class="links" href="https://www.losintrusosdelsavoy.com/" target="_blank">losintrusosdelsavoy.com</a><br/>
-								Reestructuración y remodelación completa de la web del grupo de música <q>Los Intrusos del Savoy</q>. Actualización periódica de contenidos, mantenimiento y acondicionamiento del sitio web.
-								</span>
+					
+					<div class="section-box">
+					
+						<div class="title-heading"><i class="fas fa-briefcase mr-2"></i>Experiencia laboral</div>
+						
+						<div class="job" id="experience-border">
+							<div class="title-description text-muted">Blogger</div>
+							<div class="company-name">SoyCobarde.com</div>
+							<div class="date-description">May 2013 - Jun 2018</div>
+							<div class="normal-text">Creador y administrador del blog de atletismo SoyCobarde.com.<br/>
+								Durante sus más de 5 años de vida, más de 200 artículos publicados y casi un millón y medio de páginas vistas.
 							</div>
 						</div>
-					</li>
-					<hr />
-					<li>
-						<div class="row mt-4">
-							<div class="col-lg-5">
-								<span class="education-title">Proyecto RAin</span>
-								<span class="text-muted">Mar 2020 - Jun 2020</span>
-							</div>
-							<div class="col-lg-7">
-								<p class="text-muted"><i class="fas fa-wrench mr-3"></i>HTML5 - CSS3 - Bootstrap 4 - JavaScript - jQuery - PHP - MySQL</p>
-								<span><a class="links" href="http://aglinformatica.es:6080/rain/" target="_blank">aglinformatica.es:6080/rain</a><br/>
-								Módulo Profesional de Proyecto Fin de Ciclo Formativo de Grado Superior.<br />
-								Diseño y realización del sitio web de <q>Proyecto RAin</q>, dentro del proyecto colaborativo del mismo nombre, con el objetivo de incorporar la realidad aumentada al proceso productivo de la empresa BSH.
-								</span>
+						<div class="job" id="experience-border">
+							<div class="title-description text-muted">Recepcionista</div>
+							<div class="company-name">Camping <q>Playa de Berria</q> (Santoña, Cantabria)</div>
+							<div class="date-description">2013-2014-2015</div>
+							<div class="normal-text">Gestión de llegadas y salidas, labores administrativas y atención al público.</div>
+						</div>
+						<div class="job" id="experience-border">
+							<div class="title-description text-muted">Aprendiz de fontanería</div>
+							<div class="company-name">Fontanería Vigan S.L. (Noja, Cantabria)</div>
+							<div class="date-description">Jun 2007 - Jun 2008</div>
+							<div class="normal-text">Aprendiz-peón de fontanería.</div>
+						</div>
+						<div class="job" id="experience-border">
+							<div class="title-description text-muted">Administración y ventas inmobiliarias</div>
+							<div class="company-name">Inmobiliaria TorreCarmona (Noja, Cantabria)</div>
+							<div class="date-description">Abr 2005 - Ago 2006</div>
+							<div class="normal-text">Labores administrativas, atención al público, captación y ventas.</div>
+						</div>
+						
+					</div>
+					
+					<div class="section-box">
+						
+						<div class="title-heading"><i class="fas fa-handshake mr-2"></i>Colaboraciones</div>
+						
+						<div class="title-description text-muted">Colaborador / Redactor / Articulista</div>
+						
+						<div class="job" id="experience-border">
+							<div class="company-name">Real Federación Española de Atletismo</div>
+							<div class="date-description">Oct 2017 - Ago 2018</div>
+							<div class="normal-text">Articulista colaborador de la Real Federación Española de Atletismo (RFEA).<br/>
+								16 artículos publicados, incluyendo entrevistas, investigación, y un serial de diez capítulos sobre los mejores momentos de la Selección Española en los Campeonatos de Europa.
 							</div>
 						</div>
-					</li>
-				</ul>
-				
-				<!-- XXX -->
-				<!-- <div class="projects"> -->
-					<!-- <div class="card project"> -->
-						<!-- <img src="" class="card-img-top" alt=""> -->
-						<!-- <div class="card-body"> -->
-							<!-- <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Reestructuración y remodelación completa de la web del grupo de música ‘Los Intrusos del Savoy’. Actualización periódica de contenidos, mantenimiento y acondicionamiento del sitio web.">Los Intrusos del Savoy</h5> -->
-							<!-- <p class="card-text">Reestructuración y remodelación completa de la web del grupo de música ‘Los Intrusos del Savoy’. Actualización periódica de contenidos, mantenimiento y acondicionamiento del sitio web.</p> -->
-							<!-- <a href="https://www.losintrusosdelsavoy.com/" target="_blank" class="btn btn-danger">Ver web</a> -->
-						<!-- </div> -->
-					<!-- </div> -->
-					<!-- <div class="card project"> -->
-						<!-- <img src="" class="card-img-top" alt=""> -->
-						<!-- <div class="card-body"> -->
-							<!-- <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Creación, diseño y desarrollo integral de identidad digital. Sitio web personal, que incluye blog, secciones multimedia, trayectoria, contacto... Diseño de logo e imagen corporativa y copywriting.Creación, diseño y desarrollo integral de identidad digital. Sitio web personal, que incluye blog, secciones multimedia, trayectoria, contacto... Diseño de logo e imagen corporativa y copywriting.">ramicv.byethost7.com</h5> -->
-							<!-- <p class="card-text">Creación, diseño y desarrollo integral de identidad digital. Sitio web personal, que incluye blog, secciones multimedia, trayectoria, contacto... Diseño de logo e imagen corporativa y copywriting.</p> -->
-							<!-- <a href="http://ramicv.byethost7.com/" target="_blank" class="btn btn-danger">Ver web</a> -->
-						<!-- </div> -->
-					<!-- </div> -->
-					<!-- <div class="card project"> -->
-						<!-- <img src="" class="card-img-top" alt=""> -->
-						<!-- <div class="card-body"> -->
-							<!-- <h5 class="card-title" data-toggle="tooltip" data-placement="top" title="Módulo Profesional de Proyecto Fin de Ciclo Formativo de Grado Superior. Diseño y realización del sitio web de Proyecto RAin, dentro del proyecto colaborativo del mismo nombre.">Proyecto RAin</h5> -->
-							<!-- <p class="card-text">Módulo Profesional de Proyecto Fin de Ciclo Formativo de Grado Superior. Diseño y realización del sitio web de Proyecto RAin, dentro del proyecto colaborativo del mismo nombre.</p> -->
-							<!-- <a href="http://aglinformatica.es:6080/rain/" target="_blank" class="btn btn-danger">Ver web</a> -->
-						<!-- </div> -->
-					<!-- </div> -->
-				<!-- </div> -->
-				
-				
-				<div class="separator"></div>
-				
-				
-				
-				<div class="characteristics text-uppercase font-weight-bold mb-5">Idiomas</div>
-				<div class="languages">
-					<dl class="row ml-4">
-						<dt class="col-sm-3">Castellano</dt>
-						<dd class="col-sm-9">Lengua nativa y de uso diario.</dd>
-						<dt class="col-sm-3">Inglés</dt>
-						<dd class="col-sm-9">Nivel C1 (según Marco Europeo de las Lenguas). Conversaciones sencillas. Perfecta comprensión de textos de nivel medio.</dd>
-					</dl>
+						<div class="job" id="experience-border">
+							<div class="company-name">La Bolsa del Corredor</div>
+							<div class="date-description">Abr 2014 - Mar 2016</div>
+							<div class="normal-text">Articulista colaborador de la web de atletismo y running La Bolsa del Corredor.<br/>
+								Casi 50 artículos publicados, incluyendo entrevistas con atletas de prestigio. Seguimiento del Campeonato del Mundo de Pekín'15. Cobertura de reputados eventos atléticos (London Marathon 2015).
+							</div>
+						</div>
+						<div class="job" id="experience-border">
+							<div class="company-name">Run Online</div>
+							<div class="date-description">Ene 2014 - Jun 2014</div>
+							<div class="normal-text">Articulista colaborador de la web de atletismo y running Run Online.<br/>
+								12 artículos publicados, además de diversos textos colaborativos en diferentes ediciones de la revista online durante 2014.
+							</div>
+						</div>
+						
+						<div class="job" id="experience-border">
+							<div class="company-name">Foroatletismo</div>
+							<div class="date-description">Mar 2014 - Jun 2014</div>
+							<div class="normal-text">Articulista colaborador de la web de atletismo y running Foroatletismo (3 artículos).</div>
+						</div>
+						
+					</div>
+					
+					<div class="section-box">
+						
+						<div class="title-heading"><i class="fas fa-plus mr-2"></i>Experiencia adicional</div>
+						
+						<div class="job" id="experience-border">
+							<div class="company-name">Virgin Money London Marathon</div>
+							<div class="date-description">2015</div>
+							<div class="normal-text">Labores de prensa durante el fin de semana del Virgin Money London Marathon 2015 (edición celebrada el domingo 26 de abril de 2015).</div>
+						</div>
+						<div class="job" id="experience-border">
+							<div class="company-name">10 km de Laredo</div>
+							<div class="date-description">2014 a 2018</div>
+							<div class="normal-text">Labores de prensa y redacción.</div>
+						</div>
+						<div class="job" id="experience-border">
+							<div class="company-name">Media Maratón Solidaria <q>Villa de Santoña</q></div>
+							<div class="date-description">2014 a 2017</div>
+							<div class="normal-text">Participación en el equipo organizativo de la Media Maratón Solidaria <q>Villa de Santoña</q>. Labores organizativas, de redacción, vínculo con atletas de élite y prensa. </div>
+						</div>
+						<div class="job" id="experience-border">
+							<div class="company-name">Media Maratón Azkoitia-Azpeitia</div>
+							<div class="date-description">2016-2017</div>
+							<div class="normal-text">Labores de prensa y redacción.</div>
+						</div>
+						
+					</div>
+					
 				</div>
+					
+				<div class="side">
 				
+					<div class="section-box">
+						<div class="title-heading"><i class="fas fa-book mr-2"></i>Formación académica</div>
+						<div class="job" id="experience-border">
+							<div class="title-description text-muted">Desarrollo de Aplicaciones Web</div>
+							<div class="normal-text text-muted">Ciclo Formativo de Grado Superior</div>
+							<div class="company-name">IES Augusto González de Linares (Santander, Cantabria)</div>
+							<div class="date-description">Sep 2018 - Jun 2020</div>
+						</div>
+					</div>
+					
+					<div class="section-box">
+						<div class="title-heading"><i class="fas fa-laptop-code mr-2"></i>Proyectos</div>
+						<div class="job" id="experience-border">
+							<div class="title-description text-muted">Freelance</div>
+							<div class="company-name">Los Intrusos del Savoy</div><div class="normal-text float-right"><a href="https://www.losintrusosdelsavoy.com/" target="_blank">https://www.losintrusosdelsavoy.com</a></div>
+							<div class="date-description">May 2020 - Actualidad</div>
+							<div class="normal-text"><i class="mr-2 fas fa-wrench"></i>WordPress + WooCommerce</div>
+							<div class="normal-text mt-2">Reestructuración y remodelación completa de la web del grupo de música ‘Los Intrusos del Savoy’. Actualización periódica de contenidos, mantenimiento y acondicionamiento del sitio web.</div>
+						</div>
+						<div class="job" id="experience-border">
+							<div class="title-description text-muted">Otros</div>
+							<div class="company-name">Proyecto RAin</div><div class="normal-text float-right"><a href="http://aglinformatica.es:6080/rain/" target="_blank">https://aglinformatica.es:6080/rain</a></div>
+							<div class="date-description">Mar 2020 - Jun 2020</div>
+							<div class="normal-text"><i class="mr-2 fas fa-wrench"></i>HTML5 - CSS3 - Bootstrap 4 - JavaScript - jQuery - PHP - MySQL</div>
+							<div class="normal-text mt-2">Módulo Profesional de Proyecto Fin de Ciclo Formativo de Grado Superior. Diseño y realización del sitio web de Proyecto RAin, dentro del proyecto colaborativo del mismo nombre, con el objetivo de incorporar la realidad aumentada al proceso productivo de la empresa BSH.</div>
+						</div>
+					</div>
+					
+					<div class="section-box">
+						<div class="title-heading"><i class="fas fa-globe-europe mr-2"></i>Idiomas</div>
+						<div class="job">
+							<dl class="row">
+								<dt class="col-sm-5 company-name text-uppercase">Castellano</dt>
+								<dd class="col-sm-7 normal-text">Lengua nativa y de uso diario.</dd>
+								<dt class="col-sm-5 company-name text-uppercase">Inglés</dt>
+								<dd class="col-sm-7 normal-text">Nivel C1 (según Marco Europeo de las Lenguas). Conversaciones sencillas. Perfecta comprensión de textos de nivel medio.</dd>
+							</dl>
+						</div>
+					</div>
+					
+					<div class="section-box">
+						<div class="title-heading"><i class="fas fa-info mr-2"></i>Otros datos</div>
+						<div style="padding-left:1em;">
+							<ul style="padding-left: 0;">
+								<li class="normal-text">Disponibilidad geográfica y horaria.</li>
+								<li class="normal-text">Posibilidad de incorporación inmediata.</li>
+								<li class="normal-text">Carné de conducir tipo B (vehículo propio).</li>
+								<li class="normal-text">Organizado y metódico.</li>
+								<li class="normal-text">Experiencia cara al público.</li>
+								<li class="normal-text">Experiencia en ventas.</li>
+							</ul>
+						</div>
+					</div>
+					
+					<div class="section-box">
+						<div class="title-description text-muted"><i class="fas fa-feather-alt mr-2"></i>Portfolio</div>
+						<div class="normal-text ml-3 mb-3">Artículos en prensa, colaboraciones con distintos medios, menciones y trabajos adicionales.</div>
+						<a class="btn-portfolio ml-3" href="portfolio.html" title="Ver Portfolio" alt="Portfolio">Ver portfolio</a>
+					</div>
+					
+					<div class="section-box">
+						<div class="title-description text-muted mb-3"><i class="fas fa-file-download mr-2"></i>Descargar currículum en PDF</div>
+						<a class="btn-portfolio ml-3" href="https://www.dropbox.com/s/rygsmedizuj8kgs/JoseManuel_Barberarena_CV_extend.pdf?dl=1" data-toggle="tooltip" title="Descargar versión en PDF" download="JoséManuel_Barberarena_CV.pdf"><i class="fas fa-file-download mr-3"></i>Descargar</a>
+					</div>
 				
-				<div class="separator"></div>
-				
-				
-				<div class="characteristics text-uppercase font-weight-bold mb-5">Tecnologías</div>
-				<div class="technologies">
-					<div class="tech"><img class="mb-2 mr-2" src="https://sdtimes.com/wp-content/uploads/2016/08/HTML5_logo_and_wordmark.svg_.png" width="12" alt="HTML5" data-toggle="tooltip" data-placement="top" title="HTML5" /></div>
-					<div class="tech"><img class="mb-2 mr-2" src="http://marisakaupert.com/assets/images/software/css3.png" width="12" alt="CSS3" data-toggle="tooltip" data-placement="top" title="CSS3" /></div>
-					<div class="tech"><img class="mb-2 mr-2" src="https://aformation.fr/uploads/thumbnails/course_thumbnails/3.png" width="12" alt="Bootstrap" data-toggle="tooltip" data-placement="top" title="Bootstrap" /></div>
-					<div class="tech"><img class="mb-2 mr-2" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.codementor.io%2Fassets%2Fpage_img%2Flearn-javascript.png&f=1&nofb=1" width="12" alt="JavaScript" data-toggle="tooltip" data-placement="top" title="JavaScript" /></div>
-					<div class="tech"><img class="mb-2 mr-2" src="https://www.easyprogramming.net/logo/jquery.png" width="12" alt="jQuery" data-toggle="tooltip" data-placement="top" title="jQuery" /></div>
-					<div class="tech"><img class="mb-2 mr-2" src="https://www.elenapolitiwebdesign.com/wp-content/uploads/2017/02/php-1.png" width="12" alt="PHP" data-toggle="tooltip" data-placement="top" title="PHP" /></div>
-					<div class="tech"><img class="mb-2 mr-2" src="https://www.brightmarbles.io/media/1052/java.png" width="12" alt="Java" data-toggle="tooltip" data-placement="top" title="Java" /></div>
-					<div class="tech"><img class="mb-2 mr-2" src="https://seeklogo.net/wp-content/uploads/2017/05/mysql-logo.png" width="12" alt="MySQL" data-toggle="tooltip" data-placement="top" title="MySQL" /></div>
-					<div class="tech"><img class="mb-2 mr-2" src="https://icasnetwork.com/wp-content/uploads/2015/11/2000px-wordpress_blue_logo-svg_.png" width="12" alt="WordPress" data-toggle="tooltip" data-placement="top" title="WordPress" /></div>
-					<div class="tech"><img class="mb-2 mr-2" src="https://fthmb.tqn.com/v4P_CNrqWGsQrdj6RaANe2XSVbk=/768x0/filters:no_upscale():max_bytes(150000):strip_icc()/Blogger.svg-57f268d63df78c690fe5d003.png" width="12" alt="Blogger" data-toggle="tooltip" data-placement="top" title="Blogger" /></div>
-					<div class="tech"><img class="mb-2 mr-2" src="https://cdn2.iconfinder.com/data/icons/social-media-2259/512/search-512.png" width="12" alt="SEO" data-toggle="tooltip" data-placement="top" title="SEO" /></div>
 				</div>
-				
-				<!-- <div class="characteristics text-uppercase font-weight-bold mb-5">Herramientas</div> -->
-				<!-- <div class="technologies"> -->
-					<!-- <div class="tech"><img class="mb-2 mr-2" src="https://www.msftnext.com/wp-content/uploads/2018/01/windows-512.png" width="12" alt="Windows" data-toggle="tooltip" data-placement="top" title="Windows" /></div> -->
-					<!-- <div class="tech"><img class="mb-2 mr-2" src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Firefox_Logo%2C_2019.png" width="12" alt="Firefox" data-toggle="tooltip" data-placement="top" title="Firefox" /></div> -->
-					<!-- <div class="tech"><img class="mb-2 mr-2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Google_Chrome_icon_(September_2014).svg/600px-Google_Chrome_icon_(September_2014).svg.png" width="12" alt="Google Chrome" data-toggle="tooltip" data-placement="top" title="Google Chrome" /></div> -->
-					<!-- <div class="tech"><img class="mb-2 mr-2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_logo_(2019%E2%80%93present).svg/1200px-Microsoft_Office_logo_(2019%E2%80%93present).svg.png" width="12" alt="MS Office" data-toggle="tooltip" data-placement="top" title="MS Office" /></div> -->
-					<!-- <div class="tech"><img class="mb-2 mr-2" src="https://notepad-plus-plus.org/images/logo.svg" width="12" alt="Notepad++" data-toggle="tooltip" data-placement="top" title="Notepad++" /></div> -->
-					<!-- <div class="tech"><img class="mb-2 mr-2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png" width="12" alt="Visual Studio Code" data-toggle="tooltip" data-placement="top" title="Visual Studio Code" /></div> -->
-					<!-- <div class="tech"><img class="mb-2 mr-2" src="https://msysgit.github.io/img/git_logo.png" width="12" alt="Git" data-toggle="tooltip" data-placement="top" title="Git" /></div> -->
-					<!-- <div class="tech"><img class="mb-2 mr-2" src="https://www.apachefriends.org/images/xampp-logo-ac950edf.svg" width="12" alt="XAMPP" data-toggle="tooltip" data-placement="top" title="XAMPP" /></div> -->
-					<!-- <div class="tech"><img class="mb-2 mr-2" src="https://topbestalternative.com/wp-content/uploads/2020/02/local-by-flywheel-logo.png" width="12" alt="Local by Flywheel" data-toggle="tooltip" data-placement="top" title="Local by Flywheel" /></div> -->
-					<!-- <div class="tech"><img class="mb-2 mr-2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/FileZilla_logo.svg/1024px-FileZilla_logo.svg.png" width="12" alt="FileZilla" data-toggle="tooltip" data-placement="top" title="FileZilla" /></div> -->
-					<!-- <div class="tech"><img class="mb-2 mr-2" src="https://thichvn.com/wp-content/uploads/2020/06/Adobe-Illustrator-logo.png" width="12" alt="Adobe Illustrator" data-toggle="tooltip" data-placement="top" title="Adobe Illustrator" /></div> -->
-				<!-- </div> -->
-				
-				
-				<div class="separator"></div>
-				
-				
-				<div class="characteristics text-uppercase font-weight-bold mb-5">Otros datos</div>
-				<div class="facts">
-					<ul>
-						<li><i class="fas fa-atlas mr-3"></i><span>Disponibilidad geográfica y horaria.</span></li>
-						<li><i class="fas fa-thumbs-up mr-3"></i><span>Posibilidad de incorporación inmediata.</span></li>
-						<li><i class="fas fa-car mr-3"></i><span>Carné de conducir tipo B (vehículo propio).</span></li>
-						<li><i class="fas fa-sitemap mr-3"></i><span>Organizado y metódico.</span></li>
-						<li><i class="fas fa-user-check mr-3"></i><span>Experiencia cara al público.</span></li>
-						<li><i class="fas fa-shopping-cart mr-3"></i><span>Experiencia en ventas.</span></li>
-					</ul>
-				</div>
-				
-				
+					
 			</div>
+			
+			<div class="row" style="height:2em;"></div>
 			
 		</div>
 
-		
-		
-		
-		<script>
-		  AOS.init();
-		</script>
-		
-		<script>
-			$(document).ready(function(){
-				$('[data-toggle="tooltip"]').tooltip();   
-			});
-		</script>
-		
-		<script>
-			<!-- Tabs -->
-			function openCourse(evt, courseName) {
-			  // Declare all variables
-			  var i, tabcontent, tablinks;
-
-			  // Get all elements with class="tabcontent" and hide them
-			  tabcontent = document.getElementsByClassName("tabcontent");
-			  for (i = 0; i < tabcontent.length; i++) {
-				tabcontent[i].style.display = "none";
-			  }
-
-			  // Get all elements with class="tablinks" and remove the class "active"
-			  tablinks = document.getElementsByClassName("tablinks");
-			  for (i = 0; i < tablinks.length; i++) {
-				tablinks[i].className = tablinks[i].className.replace(" active", "");
-			  }
-
-			  // Show the current tab, and add an "active" class to the button that opened the tab
-			  document.getElementById(courseName).style.display = "block";
-			  evt.currentTarget.className += " active";
-			}
-		</script>
-		
 	</body>
-	
+
 </html>

@@ -1,16 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<!-- Latest compiled and minified CSS -->
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-		
-		<!-- Bootstrap icons -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
 		<!-- Archivo CSS -->
         <link href="css/styles.css" rel="stylesheet" />
@@ -18,219 +16,691 @@
 		<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-		<!-- Latest compiled JavaScript -->
-		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-		
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 		<!-- Fonts -->
-		<!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
-		<!-- <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet"> -->
-		<!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> -->
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Poppins">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 		
 		<!-- Favicon -->
 		<link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
-		
-		<!-- AOS -->
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		
-		<title>Portfolio | Chema Barberarena</title>
+
+		<title>Chema Barberarena | Portfolio</title>
 
 	</head>
 
 
 	<body>
-	
-	
-		<div class="first-row" data-aos="fade-in" data-aos-duration="2000">
-			
-			<div class="side-left text-center" data-aos="fade-left" data-aos-duration="800">
-				<div class="profile-pic pb-5">
-					<img src="./assets/img/profile.jpg" width="300" style="filter: grayscale(100%);"/>
-				</div>
-				<div class="tab-buttons">
-					<div class="tab-button" alt="Profile" data-toggle="tooltip" data-placement="top" title="Profile"><a class="portfolio-button" href="" target="_blank"><span><i class="fas fa-user-circle"></i></span></a></div>
-					<div class="tab-button" alt="Portfolio"><a class="portfolio-button-blue disabled"><span><i class="fas fa-tasks"></i></span></a></div>
-				</div>
-				<div class="cv-title display-4 p-4" data-aos="zoom-in" data-aos-duration="1000">Chema Barberarena</div>
-				<hr class="hr-separator"/>
-				<h3 class="m-5 pl-5 pr-5">
-					<i class="fas fa-quote-right mr-3"></i>
-					<span class="side-left-quote text-center" data-aos="fade-in" data-aos-duration="2000">Un diseñador sabe que ha alcanzado la perfección no cuando no queda nada que añadir, sino cuando no queda nada que quitar.</span>
-					<i class="fas fa-quote-left ml-3"></i>
-				</h3>
-				<p class="blockquote-footer text-white mb-5"><cite>Antoine de Saint-Exupéry</cite></p>
-				<hr class="hr-separator">
+
+		<div class="container">
+		
+			<div class="header">
+				<h2 class="mt-5 pl-3 pb-3"><i class="fas fa-feather-alt mr-2"></i>Portfolio</h2>
+				<a class="btn-portfolio mt-3 float-right" href="index.html" title="Volver al currículum" alt="Volver al currículum">Volver al currículum</a>
+				<hr class="hr-bar"/>
 			</div>
 			
-			<div class="side-medium" data-aos="fade-up" data-aos-duration="800">
-				<div class="personal-data">
-					<div class="row">
-						<div class="col-lg-4 font-weight-bold">Fecha de nacimiento</div>
-						<div class="col-lg-8">27 de Septiembre de 1984 (36 años)</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 font-weight-bold">Ocupación</div>
-						<div class="col-lg-8">Diseñador & Desarrollador Web</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 font-weight-bold">Localización</div>
-						<div class="col-lg-8">Almería (Andalucía, ES)</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-4 font-weight-bold">Estado civil</div>
-						<div class="col-lg-8">Casado</div>
-					</div>
-				</div>
-				
-				<div class="social-icons mt-5 mb-5">
-					<a href="https://www.linkedin.com/in/chemabarberarena/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-					<a href="mailto:jmbarberarena@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
-					<a href="https://wa.me/34636141801" target="_blank"><i class="fab fa-whatsapp"></i></a>
-				</div>
-				
-				
-				<div class="characteristics text-uppercase font-weight-bold mb-5">Artículos</div>
-				<div class="articles">
-					<dl class="row">
-						<dt class="col-sm-12 mb-3">Especial RFEA - Los mejores momentos de España en los Campeonatos de Europa</dt>
-						<dd class="col-sm-12">
-							<dl class="row">
-								<dd class="col-sm-2">01/08/2018</dd>
-								<dd class="col-sm-10"><a href="https://rfea.es/web/noticias/desarrollo.asp?codigo=11102#.W2FbWk0UlUZ" target="_blank">Todos los caminos conducen a Beitia (y X)</a></dd>
-								<dd class="col-sm-2">27/07/2018</dd>
-								<dd class="col-sm-10"><a href="https://rfea.es/web/noticias/desarrollo.asp?codigo=11097#.W18t_9L-jcu" target="_blank">Los éxitos españoles por sectores (Hombres) (IX)</a></dd>
-								<dd class="col-sm-2">25/07/2018</dd>
-								<dd class="col-sm-10"><a href="https://rfea.es/web/noticias/desarrollo.asp?codigo=11088#.W18txNL-jcu" target="_blank">Los éxitos españoles por sectores (Mujeres) (VIII)</a></dd>
-								<dd class="col-sm-2">17/07/2018</dd>
-								<dd class="col-sm-10"><a href="https://rfea.es/web/noticias/desarrollo.asp?codigo=11070#.W05RrdL-jct" target="_blank">El reinante 1.500m de Barcelona 2010 (VII)</a></dd>
-								<dd class="col-sm-2">11/07/2018</dd>
-								<dd class="col-sm-10"><a href="https://rfea.es/web/noticias/desarrollo.asp?codigo=11054#.W05RTNL-jcu" target="_blank">Los hitos de Gotemburgo 2006 (VI)</a></dd>
-								<dd class="col-sm-2">04/07/2018</dd>
-								<dd class="col-sm-10"><a href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10964#.Wzz7ZdL-jct" target="_blank">El doblete 'oro-plata' de Josep Marín en Atenas 1982 (V)</a></dd>
-								<dd class="col-sm-2">19/06/2018</dd>
-								<dd class="col-sm-10"><a href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10948#.Wzz7JtL-jct" target="_blank">Las primeras participaciones españolas. Quienes lo cambiaron todo (IV)</a></dd>
-								<dd class="col-sm-2">13/06/2018</dd>
-								<dd class="col-sm-10"><a href="https://www.rfea.es/web/noticias/desarrollo.asp?codigo=10926#.WyDMf9L-jct" target="_blank">La primera medalla femenina. El oro de Mari Cruz Díaz en Stuttgart 1986 (III)</a></dd>
-								<dd class="col-sm-2">06/06/2018</dd>
-								<dd class="col-sm-10"><a href="https://www.rfea.es/web/noticias/desarrollo.asp?codigo=10905#.Wxi3u9KRXcu" target="_blank">El sueño cumplido de Llopart en Praga 1978 (II)</a></dd>
-								<dd class="col-sm-2">30/05/2018</dd>
-								<dd class="col-sm-10"><a href="https://www.rfea.es/web/noticias/desarrollo.asp?codigo=10880#.Ww51KdKRXct" target="_blank">El triplete maratoniano en Helsinki 1994 (I)</a></dd>
-							</dl>
-						</dd>
-						<dt class="col-sm-12 mb-3">RFEA - Otros artículos</dt>
-						<dd class="col-sm-12">
-							<dl class="row">
-								<dd class="col-sm-2">03/05/2018</dd>
-								<dd class="col-sm-10"><a href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10772#.WurL1--WTct" target="_blank">Júlia Tákacs: Los 50 kms marcha, más que un deporte son una ciencia</a></dd>
-								<dd class="col-sm-2">02/05/2018</dd>
-								<dd class="col-sm-10"><a href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10785#.WurL_--WTct" target="_blank">Los éxitos españoles en la Copa del Mundo de Marcha</a></dd>
-								<dd class="col-sm-2">04/01/2018</dd>
-								<dd class="col-sm-10"><a href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10458#.Wk8wpNLT7cs" target="_blank">Previa del IAAF World Indoor Tour</a></dd>
-								<dd class="col-sm-2">31/10/2017</dd>
-								<dd class="col-sm-10"><a href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10299#.Wfgkio_9Tcv" target="_blank">Llega noviembre: comienza el cross</a></dd>
-								<dd class="col-sm-2">24/10/2017</dd>
-								<dd class="col-sm-10"><a href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10278#.WfXRCY_9Tcs" target="_blank">Atletismo y Cine (Parte 2)</a></dd>
-								<dd class="col-sm-2">17/10/2017</dd>
-								<dd class="col-sm-10"><a href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10247#.WfXRUI_9Tct" target="_blank">Atletismo y Cine (Parte 1)</a></dd>
-							</dl>
-						</dd>
-						
-					</dl>
-				</div>
-				
-			
+			<div class="links pb-4">
+				<div class="link-icon"><a href="https://wa.me/34636141801" title="WhatsApp" alt="WhatsApp"><i class="fab fa-whatsapp"></i></a></div>
+				<div><a href="mailto:jmbarberarena@gmail.com" title="E-mail" alt="E-mail"><i class="far fa-envelope"></i></a></div>
+				<div><a href="https://www.linkedin.com/in/chemabarberarena/" title="LinkedIn" alt="LinkedIn"><i class="fab fa-linkedin-in"></i></a></div>
 			</div>
 			
 			
-			<div class="side-right" data-aos="fade-right" data-aos-duration="800">
+			<div class="main-portfolio pt-5">
 			
-				<div class="articles">
-					<dl class="row">
-						<dt class="col-sm-12 mb-3">La Bolsa del Corredor</dt>
-						<dd class="col-sm-12">
-							<dl class="row">
-								<dd class="col-sm-2">23/03/2016</dd>
-								<dd class="col-sm-10"><a href="https://www.sport.es/labolsadelcorredor/boris-berian/" target="_blank">El sueño americano: Boris Berian</a></dd>
-								<dd class="col-sm-2">03/03/2016</dd>
-								<dd class="col-sm-10"><a href="https://www.sport.es/labolsadelcorredor/entrevista-a-paula-gonzalez-berodia/" target="_blank">Paula González: "Estoy deseando preparar otra maratón, llevar mi cuerpo al límite"</a></dd>
-								<dd class="col-sm-2">17/01/2016</dd>
-								<dd class="col-sm-10"><a href="https://www.sport.es/labolsadelcorredor/carles-castillejo-el-maraton-olimpico-de-rio-2016/" target="_blank">Carles Castillejo "El maratón olímpico de Río 2016 sería el broche de oro perfecto a mi carrera deportiva"</a></dd>
-								<dd class="col-sm-2">28/12/2015</dd>
-								<dd class="col-sm-10"><a href="https://www.sport.es/labolsadelcorredor/fernando-carro/" target="_blank">Fernando Carro en estado puro</a></dd>
-								<dd class="col-sm-2">16/12/2015</dd>
-								<dd class="col-sm-10"><a href="https://www.sport.es/labolsadelcorredor/nacionalizaciones-el-eterno-debate/" target="_blank">Nacionalizaciones: el eterno debate</a></dd>
-								<dd class="col-sm-2">13/12/2015</dd>
-								<dd class="col-sm-10"><a href="https://www.sport.es/labolsadelcorredor/atletismo-limpio-si-se-puede/" target="_blank">Atletismo limpio: Sí se puede</a></dd>
-								<dd class="col-sm-2">30/07/2015</dd>
-								<dd class="col-sm-10"><a href="https://www.sport.es/labolsadelcorredor/asier-cuevas-de-este-deporte-me-motiva-el-aspecto-mas-intimo-y-personal/" target="_blank">Asier Cuevas: "De este deporte me motiva el aspecto más íntimo y personal"</a></dd>
-								<dd class="col-sm-2">14/05/2015</dd>
-								<dd class="col-sm-10"><a href="https://www.sport.es/labolsadelcorredor/eliud-kipchoge-la-vieja-escuela-recupera-el-olimpo-del-maraton/" target="_blank">Eliud Kipchoge, la vieja escuela recupera el olimpo del maratón</a></dd>
-								<dd class="col-sm-2">20/04/2015</dd>
-								<dd class="col-sm-10"><a href="https://www.sport.es/labolsadelcorredor/el-face-to-face-mas-esperado/" target="_blank">El 'face-to-face' más esperado</a></dd>
-								<dd class="col-sm-2">14/04/2015</dd>
-								<dd class="col-sm-10"><a href="https://www.sport.es/labolsadelcorredor/la-delgada-linea-roja-del-dopaje/" target="_blank">La delgada línea roja del dopaje</a></dd>
-							</dl>
-						</dd>
-						<dt class="col-sm-12 mb-3">RFEA - Otros artículos</dt>
-						<dd class="col-sm-12">
-							<dl class="row">
-								<dd class="col-sm-2">03/05/2018</dd>
-								<dd class="col-sm-10"><a href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10772#.WurL1--WTct" target="_blank">Júlia Tákacs: Los 50 kms marcha, más que un deporte son una ciencia</a></dd>
-								<dd class="col-sm-2">02/05/2018</dd>
-								<dd class="col-sm-10"><a href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10785#.WurL_--WTct" target="_blank">Los éxitos españoles en la Copa del Mundo de Marcha</a></dd>
-								<dd class="col-sm-2">04/01/2018</dd>
-								<dd class="col-sm-10"><a href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10458#.Wk8wpNLT7cs" target="_blank">Previa del IAAF World Indoor Tour</a></dd>
-								<dd class="col-sm-2">31/10/2017</dd>
-								<dd class="col-sm-10"><a href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10299#.Wfgkio_9Tcv" target="_blank">Llega noviembre: comienza el cross</a></dd>
-								<dd class="col-sm-2">24/10/2017</dd>
-								<dd class="col-sm-10"><a href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10278#.WfXRCY_9Tcs" target="_blank">Atletismo y Cine (Parte 2)</a></dd>
-								<dd class="col-sm-2">17/10/2017</dd>
-								<dd class="col-sm-10"><a href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10247#.WfXRUI_9Tct" target="_blank">Atletismo y Cine (Parte 1)</a></dd>
-							</dl>
-						</dd>
-						
-					</dl>
+				<div id="myBtnContainer">
+					<button class="btn active" onclick="filterSelection('all')"> Todo</button>
+					<button class="btn" onclick="filterSelection('rfea')"> RFEA</button>
+					<button class="btn" onclick="filterSelection('lbdc')"> La Bolsa del Corredor</button>
+					<button class="btn" onclick="filterSelection('runonline')"> Run Online</button>
+					<button class="btn" onclick="filterSelection('foroatletismo')"> Foroatletismo</button>
+					<button class="btn" onclick="filterSelection('laredo')"> 10km Laredo</button>
+					<button class="btn" onclick="filterSelection('menciones')"> Menciones</button>
+					<button class="btn" onclick="filterSelection('prensa')"> Prensa</button>
+					<button class="btn" onclick="filterSelection('otros')"> Otros</button>
 				</div>
-			
-				<!--
-				<div class="characteristics text-uppercase font-weight-bold mb-5">Proyectos</div>
-				<div class="projects">
-					<div class="project">Project 1</div>
-					<div class="project">Project 2</div>
-					<div class="project">Project 3</div>
-					<div class="project">Project 4</div>
-					<div class="project">Project 5</div>
-					<div class="project">Project 6</div>
-					<div class="project">Project 7</div>
+				
+				<!-- Portfolio Gallery Grid -->
+				
+				<div class="row mt-5">
+				
+					<div class="column rfea">
+						<div class="content">
+							<a class="normal-text float-right" href="https://rfea.es/web/noticias/desarrollo.asp?codigo=11102#.W2FbWk0UlUZ" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">(X) Todos los caminos conducen a Beitia</span>
+							<div class="date-description text-muted">01/08/2018</div>
+							<div class="normal-text text-muted">Especial "Los mejores momentos de España en los Campeonatos de Europa"</div>
+						</div>
+					</div>
+					<div class="column rfea">
+						<div class="content">
+							<a class="normal-text float-right" href="https://rfea.es/web/noticias/desarrollo.asp?codigo=11097#.W18t_9L-jcu" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">(IX) Los éxitos españoles por sectores (Hombres)</span>
+							<div class="date-description text-muted">27/07/2018</div>
+							<div class="normal-text text-muted">Especial "Los mejores momentos de España en los Campeonatos de Europa"</div>
+						</div>
+					</div>
+					<div class="column rfea">
+						<div class="content">
+							<a class="normal-text float-right" href="https://rfea.es/web/noticias/desarrollo.asp?codigo=11088#.W18txNL-jcu" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">(VIII) Los éxitos españoles por sectores (Mujeres)</span>
+							<div class="date-description text-muted">25/07/2018</div>
+							<div class="normal-text text-muted">Especial "Los mejores momentos de España en los Campeonatos de Europa"</div>
+						</div>
+					</div>
+					
+					<div class="column rfea">
+						<div class="content">
+							<a class="normal-text float-right" href="https://rfea.es/web/noticias/desarrollo.asp?codigo=11070#.W05RrdL-jct" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">(VII) El reinante 1.500m de Barcelona 2010</span>
+							<div class="date-description text-muted">17/07/2018</div>
+							<div class="normal-text text-muted">Especial "Los mejores momentos de España en los Campeonatos de Europa"</div>
+						</div>
+					</div>
+					<div class="column rfea">
+						<div class="content">
+							<a class="normal-text float-right" href="https://rfea.es/web/noticias/desarrollo.asp?codigo=11054#.W05RTNL-jcu" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">(VI) Los hitos de Gotemburgo 2006</span>
+							<div class="date-description text-muted">11/07/2018</div>
+							<div class="normal-text text-muted">Especial "Los mejores momentos de España en los Campeonatos de Europa"</div>
+						</div>
+					</div>
+					<div class="column rfea">
+						<div class="content">
+							<a class="normal-text float-right" href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10964#.Wzz7ZdL-jct" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">(V) El doblete 'oro-plata' de Josep Marín en Atenas 1982</span>
+							<div class="date-description text-muted">04/07/2018</div>
+							<div class="normal-text text-muted">Especial "Los mejores momentos de España en los Campeonatos de Europa"</div>
+						</div>
+					</div>
+					<div class="column rfea">
+						<div class="content">
+							<a class="normal-text float-right" href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10948#.Wzz7JtL-jct" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">(IV) Las primeras participaciones españolas.<br/> Quienes lo cambiaron todo</span>
+							<div class="date-description text-muted">19/06/2018</div>
+							<div class="normal-text text-muted">Especial "Los mejores momentos de España en los Campeonatos de Europa"</div>
+						</div>
+					</div>
+					<div class="column rfea">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.rfea.es/web/noticias/desarrollo.asp?codigo=10926#.WyDMf9L-jct" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">(III) La primera medalla femenina.<br/> El oro de Mari Cruz Díaz en Stuttgart 1986</span>
+							<div class="date-description text-muted">13/06/2018</div>
+							<div class="normal-text text-muted">Especial "Los mejores momentos de España en los Campeonatos de Europa"</div>
+						</div>
+					</div>
+					<div class="column rfea">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.rfea.es/web/noticias/desarrollo.asp?codigo=10905#.Wxi3u9KRXcu" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">(II) El sueño cumplido de Llopart en Praga 1978</span>
+							<div class="date-description text-muted">06/06/2018</div>
+							<div class="normal-text text-muted">Especial "Los mejores momentos de España en los Campeonatos de Europa"</div>
+						</div>
+					</div>
+					<div class="column rfea">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.rfea.es/web/noticias/desarrollo.asp?codigo=10880#.Ww51KdKRXct" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">(I) El "triplete" maratoniano en Helsinki 1994</span>
+							<div class="date-description text-muted">30/05/2018</div>
+							<div class="normal-text text-muted">Especial "Los mejores momentos de España en los Campeonatos de Europa"</div>
+						</div>
+					</div>
+					<br/>
+					<div class="column rfea">
+						<div class="content">
+							<a class="normal-text float-right" href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10772#.WurL1--WTct" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Júlia Takács: "Los 50 kms marcha, más que un deporte son una ciencia"</span>
+							<div class="date-description text-muted">03/05/2018</div>
+							<div class="normal-text text-muted">Entrevistas</div>
+						</div>
+					</div>
+					<div class="column rfea">
+						<div class="content">
+							<a class="normal-text float-right" href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10785#.WurL_--WTct" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Los éxitos españoles en la Copa del Mundo de Marcha</span>
+							<div class="date-description text-muted">02/05/2018</div>
+							<div class="normal-text text-muted">Reportajes</div>
+						</div>
+					</div>
+					<div class="column rfea">
+						<div class="content">
+							<a class="normal-text float-right" href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10458#.Wk8wpNLT7cs" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Previa del IAAF World Indoor Tour</span>
+							<div class="date-description text-muted">04/01/2018</div>
+							<div class="normal-text text-muted">Previas competiciones</div>
+						</div>
+					</div>
+					<div class="column rfea">
+						<div class="content">
+							<a class="normal-text float-right" href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10299#.Wfgkio_9Tcv" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Llega noviembre, comienza el cross</span>
+							<div class="date-description text-muted">31/10/2017</div>
+							<div class="normal-text text-muted">Previas competiciones</div>
+						</div>
+					</div>
+					<div class="column rfea">
+						<div class="content">
+							<a class="normal-text float-right" href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10278#.WfXRCY_9Tcs" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Atletismo y Cine · Parte 2</span>
+							<div class="date-description text-muted">24/10/2017</div>
+							<div class="normal-text text-muted">Reportajes</div>
+						</div>
+					</div>
+					<div class="column rfea">
+						<div class="content">
+							<a class="normal-text float-right" href="https://rfea.es/web/noticias/desarrollo.asp?codigo=10247#.WfXRUI_9Tct" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Atletismo y Cine · Parte 1</span>
+							<div class="date-description text-muted">17/10/2017</div>
+							<div class="normal-text text-muted">Reportajes</div>
+						</div>
+					</div>
+					
+					
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/boris-berian/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">El sueño americano: Boris Berian</span>
+							<div class="date-description text-muted">23/03/2016</div>
+							<div class="normal-text text-muted">Reportajes</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/entrevista-a-paula-gonzalez-berodia/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Paula González: "Estoy deseando preparar otra maratón, llevar mi cuerpo al límite"</span>
+							<div class="date-description text-muted">03/03/2016</div>
+							<div class="normal-text text-muted">Entrevistas</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/carles-castillejo-el-maraton-olimpico-de-rio-2016/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Carles Castillejo "El maratón olímpico de Río 2016 sería el broche de oro perfecto a mi carrera deportiva"</span>
+							<div class="date-description text-muted">17/01/2016</div>
+							<div class="normal-text text-muted">Entrevistas</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/fernando-carro/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Fernando Carro en estado puro</span>
+							<div class="date-description text-muted">28/12/2015</div>
+							<div class="normal-text text-muted">Entrevistas</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/nacionalizaciones-el-eterno-debate/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Nacionalizaciones: el eterno debate</span>
+							<div class="date-description text-muted">16/12/2015</div>
+							<div class="normal-text text-muted">Reportajes</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/atletismo-limpio-si-se-puede/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Atletismo limpio: Sí se puede</span>
+							<div class="date-description text-muted">13/12/2015</div>
+							<div class="normal-text text-muted">Reportajes</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/hasta-siempre-pekin/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Hasta siempre, Pekín</span>
+							<div class="date-description text-muted">30/08/2015</div>
+							<div class="normal-text text-muted">Especial Campeonato del Mundo de Pekín 2015</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/el-dia-de-los-invencibles/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">El día de los invencibles</span>
+							<div class="date-description text-muted">29/08/2015</div>
+							<div class="normal-text text-muted">Especial Campeonato del Mundo de Pekín 2015</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/evocando-a-blankers-koen/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Evocando a Blankers-Koen</span>
+							<div class="date-description text-muted">28/08/2015</div>
+							<div class="normal-text text-muted">Especial Campeonato del Mundo de Pekín 2015</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/usain-is-back-que-bello-es-el-atletismo/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">"Usain is back", qué bello es el atletismo</span>
+							<div class="date-description text-muted">27/08/2015</div>
+							<div class="normal-text text-muted">Especial Campeonato del Mundo de Pekín 2015</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/los-tiempos-estan-cambiando/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Los tiempos están cambiando</span>
+							<div class="date-description text-muted">26/08/2015</div>
+							<div class="normal-text text-muted">Especial Campeonato del Mundo de Pekín 2015</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/dia-3-zancadas-de-gacela/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Zancadas de gacela</span>
+							<div class="date-description text-muted">24/08/2015</div>
+							<div class="normal-text text-muted">Especial Campeonato del Mundo de Pekín 2015</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/el-numero-1/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">El número 1</span>
+							<div class="date-description text-muted">23/08/2015</div>
+							<div class="normal-text text-muted">Especial Campeonato del Mundo de Pekín 2015</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/como-vencerlo-esperando-a-que-se-haga-viejo/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">"¿Cómo vencerlo? "Esperando a que se haga viejo"</span>
+							<div class="date-description text-muted">22/08/2015</div>
+							<div class="normal-text text-muted">Especial Campeonato del Mundo de Pekín 2015</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/previa-campeonato-del-mundo-de-atletismo-pekin-2015-mujeres/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Previa Campeonato del Mundo de Atletismo Pekin 2015 (Mujeres)</span>
+							<div class="date-description text-muted">20/08/2015</div>
+							<div class="normal-text text-muted">Especial Campeonato del Mundo de Pekín 2015</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/previa-campeonato-del-mundo-de-atletismo-pekin-2015-hombres/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Previa Campeonato del Mundo de Atletismo Pekin 2015 (Hombres)</span>
+							<div class="date-description text-muted">19/08/2015</div>
+							<div class="normal-text text-muted">Especial Campeonato del Mundo de Pekín 2015</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/asier-cuevas-de-este-deporte-me-motiva-el-aspecto-mas-intimo-y-personal/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Asier Cuevas: "De este deporte me motiva el aspecto más íntimo y personal"</span>
+							<div class="date-description text-muted">30/07/2015</div>
+							<div class="normal-text text-muted">Entrevistas</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/eliud-kipchoge-la-vieja-escuela-recupera-el-olimpo-del-maraton/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Eliud Kipchoge, la vieja escuela recupera el olimpo del maratón</span>
+							<div class="date-description text-muted">14/05/2015</div>
+							<div class="normal-text text-muted">Reportajes</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/el-face-to-face-mas-esperado/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">El 'face-to-face' más esperado</span>
+							<div class="date-description text-muted">20/04/2015</div>
+							<div class="normal-text text-muted">Reportajes</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/la-delgada-linea-roja-del-dopaje/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">La delgada línea roja del dopaje</span>
+							<div class="date-description text-muted">14/04/2015</div>
+							<div class="normal-text text-muted">Reportajes</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/just-doping-nike-patrocina-al-tramposo-gatlin/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">"JUST DO... PING": Nike patrocina al tramposo Gatlin</span>
+							<div class="date-description text-muted">26/03/2015</div>
+							<div class="normal-text text-muted">Reportajes</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/campeonato-del-mundo-de-campo-a-traves-en-guiyang/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Campeonato del Mundo de Campo a Través en Guiyang</span>
+							<div class="date-description text-muted">25/03/2015</div>
+							<div class="normal-text text-muted">Previas competiciones</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/campeonatos-de-europa-indoor-en-praga/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Campeonatos de Europa Indoor en Praga</span>
+							<div class="date-description text-muted">03/03/2015</div>
+							<div class="normal-text text-muted">Previas competiciones</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/yuki-kawauchi-la-leyenda-del-corredor-popular/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Yuki Kawauchi, el administrativo leyenda del maratón</span>
+							<div class="date-description text-muted">04/01/2015</div>
+							<div class="normal-text text-muted">Reportajes</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/roberto-alaiz/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Roberto Alaiz: "Quiero vivir de esto, pero no puedo cobrar más que un ingeniero, o que un médico. No tiene sentido"</span>
+							<div class="date-description text-muted">01/12/2014</div>
+							<div class="normal-text text-muted">Entrevistas</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/previa-cross-de-atapuerca/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Previa Cross de Atapuerca</span>
+							<div class="date-description text-muted">12/11/2014</div>
+							<div class="normal-text text-muted">Previas competiciones</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/previa-maraton-de-nueva-york-2014-una-batalla-majestuosa/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Previa Maratón de Nueva York 2014, una batalla majestuosa</span>
+							<div class="date-description text-muted">28/10/2014</div>
+							<div class="normal-text text-muted">Previas competiciones</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/maraton-de-chicago-2014/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Previa Maratón de Chicago 2014</span>
+							<div class="date-description text-muted">07/10/2014</div>
+							<div class="normal-text text-muted">Previas competiciones</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/la-gloria-pasa-por-berlin/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">La Gloria pasa por Berlín</span>
+							<div class="date-description text-muted">28/09/2014</div>
+							<div class="normal-text text-muted">Crónicas competiciones</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/maraton-de-berlin-2014/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Previa Maratón de Berlín 2014</span>
+							<div class="date-description text-muted">25/09/2014</div>
+							<div class="normal-text text-muted">Previas competiciones</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/otono-tiempo-de-maraton/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Otoño, tiempo de maratón</span>
+							<div class="date-description text-muted">20/09/2014</div>
+							<div class="normal-text text-muted">Reportajes</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/12-senales-de-valor-deportivo/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">12 señales de valor deportivo</span>
+							<div class="date-description text-muted">04/08/2014</div>
+							<div class="normal-text text-muted">Varios</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/entrenamiento-en-altura/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">¿Qué es el entrenamiento en altura? Método y beneficios</span>
+							<div class="date-description text-muted">30/05/2014</div>
+							<div class="normal-text text-muted">Entrenamiento</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/kipsang-vs-bekele/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Kipsang vs Bekele. ¿Quién vencerá la primera batalla?</span>
+							<div class="date-description text-muted">09/05/2014</div>
+							<div class="normal-text text-muted">Previas competiciones</div>
+						</div>
+					</div>
+					<div class="column lbdc">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.sport.es/labolsadelcorredor/las-10-mejores-frases-de-superacion/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Las 10 mejores frases de superación</span>
+							<div class="date-description text-muted">16/04/2014</div>
+							<div class="normal-text text-muted">Varios</div>
+						</div>
+					</div>
+					
+					<div class="column runonline">
+						<div class="content">
+							<span class="">Campeonato de Europa de Selecciones Braunschweig 2014 (-)</span>
+							<div class="date-description text-muted">26/06/2014</div>
+							<div class="normal-text text-muted">Previas competiciones</div>
+						</div>
+					</div>
+					<div class="column runonline">
+						<div class="content">
+							<span class="">Campeonato de España de Cross Mérida (Crónica y resultados) (-)</span>
+							<div class="date-description text-muted">27/03/2014</div>
+							<div class="normal-text text-muted">Crónicas competiciones</div>
+						</div>
+					</div>
+					<div class="column runonline">
+						<div class="content">
+							<a class="normal-text float-right" href="https://issuu.com/revistarunonline/docs/run_online_n__7_sumario" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Campeonato de España de Media Maratón Coruña 21 <span class="normal-text text-muted"><em>(revista nº7, págs. 30-31)</em></span></span>
+							<div class="date-description text-muted">12/03/2014</div>
+							<div class="normal-text text-muted">Crónicas competiciones</div>
+						</div>
+					</div>
+					<div class="column runonline">
+						<div class="content">
+							<span class="">Maratón de Sevilla (-)</span>
+							<div class="date-description text-muted">23/02/2014</div>
+							<div class="normal-text text-muted">Crónicas competiciones</div>
+						</div>
+					</div>
+					<div class="column runonline">
+						<div class="content">
+							<span class="">Genzebe Dibaba, dos récords de un plumazo (-)</span>
+							<div class="date-description text-muted">07/02/2014</div>
+							<div class="normal-text text-muted">Crónicas competiciones</div>
+						</div>
+					</div>
+					<div class="column runonline">
+						<div class="content">
+							<a class="normal-text float-right" href="https://issuu.com/revistarunonline/docs/numero_6_sumario_issuu" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Crónica Cross Internacional de San Sebastián <span class="normal-text text-muted"><em>(revista nº6, págs. 32-33)</em></span></span>
+							<div class="date-description text-muted">26/01/2014</div>
+							<div class="normal-text text-muted">Crónicas competiciones</div>
+						</div>
+					</div>
+					<div class="column runonline">
+						<div class="content">
+							<span class="">Crónica Cross Internacional de Elgóibar (-)</span>
+							<div class="date-description text-muted">13/01/2014</div>
+							<div class="normal-text text-muted">Crónicas competiciones</div>
+						</div>
+					</div>
+					
+					<div class="column foroatletismo">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.foroatletismo.com/actualidad/paquillo-fernandez-mejorar-es-posible/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">¿A qué estamos jugando?</span>
+							<div class="date-description text-muted">02/06/2014</div>
+							<div class="normal-text text-muted">Reportajes</div>
+						</div>
+					</div>
+					<div class="column foroatletismo">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.foroatletismo.com/actualidad/seleccion-espanola-maraton-zurich-quien-es-quien/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Selección Española de Maratón para Zúrich: quién es quién y por qué no más</span>
+							<div class="date-description text-muted">01/05/2014</div>
+							<div class="normal-text text-muted">Previas competiciones</div>
+						</div>
+					</div>
+					<div class="column foroatletismo">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.foroatletismo.com/actualidad/diego-garcia-memoria/" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">En tu memoria, Diego</span>
+							<div class="date-description text-muted">31/03/2014</div>
+							<div class="normal-text text-muted">Reportajes</div>
+						</div>
+					</div>
+					
+					<div class="column laredo">
+						<div class="content">
+							<a class="normal-text float-right" href="http://10kmlaredo.es/noticias/37-silencio-se-vuela" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Silencio, se vuela <span class="normal-text text-muted"><em>(actualizado tras cada edición de la prueba)</em></span></span>
+							<div class="date-description text-muted">22/05/2015</div>
+							<div class="normal-text text-muted">Reportajes</div>
+						</div>
+					</div>
+					
+					<div class="column menciones">
+						<div class="content">
+							<a class="normal-text float-right" href="https://drive.google.com/file/d/1yBVws1BEUQOgDx0z_58N52MYhjvCRQHn/view" target="_blank" title="Ver artículo"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">"Sólo puede quedar uno"</span>
+							<div class="date-description text-muted">20/09/2017</div>
+							<div class="normal-text text-muted">Artículo de Sergio Heredia en La Vanguardia (<a href="https://www.lavanguardia.com/" target="_blank">lavanguardia.com</a>)</div>
+						</div>
+					</div>
+					
+					<div class="column menciones">
+						<div class="content">
+							<a class="normal-text float-right" href="http://www.esferalibros.com/libro/corre-como-un-etiope/" target="_blank" title="Ver libro"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Correr como un etíope - Manual para entrenar como un atleta de élite</span>
+							<div class="date-description text-muted">Septiembre 2016</div>
+							<div class="normal-text text-muted">Marc Roig Tió (La Esfera de los Libros S.L.)<br /><em>Agradecimientos, página 11</em></div>
+						</div>
+					</div>
+					
+					<div class="column prensa">
+						<div class="content">
+							<a class="normal-text float-right" href="http://www.10kmlaredo.es/" target="_blank" title="Ver web"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">10km Laredo</span>
+							<div class="date-description text-muted">2014 a 2017</div>
+						</div>
+					</div>
+					<div class="column prensa">
+						<div class="content">
+							<a class="normal-text float-right" href="http://azkoitia-azpeitia.com/" target="_blank" title="Ver web"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Medio Maratón Azkoitia-Azpeitia</span>
+							<div class="date-description text-muted">2016-2017</div>
+						</div>
+					</div>
+					<div class="column prensa">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.virginmoneylondonmarathon.com/" target="_blank" title="Ver web"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Virgin Money London Marathon</span>
+							<div class="date-description text-muted">2015</div>
+							<div class="normal-text text-muted">En colaboración con <a href="https://labolsadelcorredor.com/" target="_blank">La Bolsa del Corredor</a> <span><em>(edición celebrada el domingo 26 de abril de 2015)</em></span></div>
+						</div>
+					</div>
+					
+					<div class="column otros">
+						<div class="content">
+							<a class="normal-text float-right" href="https://www.rfea.es/aeea/index.asp" target="_blank" title="Ver web"><i class="fas fa-external-link-alt"></i></a>
+							<span class="">Miembro de la Asociación Española de Estadísticos de Atletismo (AEEA)</span>
+							<div class="date-description text-muted">2016-2020</div>
+						</div>
+					</div>
+					
+					
+					
+				<!-- END GRID -->
 				</div>
-				-->
+				
+			<!-- END MAIN -->
+			</div>
+					
 			
+			<div class="row" style="height:2em;"></div>
+			
+			<div class="summary-articles text-center p-4">
+				<div class="summary-articles-title font-weight-bold mb-1">Resumen</div>
+				<div class="summary normal-text">
+					<script>
+					<!-- var all_articles = $('.column').length; -->
+					<!-- document.write("Todo: " + all_articles + "<br />"); -->
+					var rfea = $('.rfea').length;
+					document.write("RFEA: " + rfea + "<br />");
+					var lbdc = $('.lbdc').length;
+					document.write("La Bolsa del Corredor: " + lbdc + "<br />");
+					var runonline = $('.runonline').length;
+					document.write("Run Online: " + runonline + "<br />");
+					var foroatletismo = $('.foroatletismo').length;
+					document.write("Foroatletismo: " + foroatletismo + "<br />");
+					var laredo = $('.laredo').length;
+					document.write("10km Laredo: " + laredo + "<br />");
+					var menciones = $('.menciones').length;
+					document.write("Menciones en otras publicaciones: " + menciones + "<br />");
+					var prensa = $('.prensa').length;
+					document.write("Trabajos de prensa: " + prensa + "<br />");
+					</script>
+				</div>
 			</div>
 			
-			
+			<div class="row" style="height:2em;"></div>
 			
 		</div>
 
-		
-		
-		
-		<script>
-		  AOS.init();
-		</script>
-		
-		<script>
-			$(document).ready(function(){
-				$('[data-toggle="tooltip"]').tooltip();   
-			});
-		</script>
-		
 	</body>
 	
+	
+	
+	<script>
+	filterSelection("all")
+	function filterSelection(c) {
+	  var x, i;
+	  x = document.getElementsByClassName("column");
+	  if (c == "all") c = "";
+	  for (i = 0; i < x.length; i++) {
+		w3RemoveClass(x[i], "show");
+		if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+	  }
+	}
+
+	function w3AddClass(element, name) {
+	  var i, arr1, arr2;
+	  arr1 = element.className.split(" ");
+	  arr2 = name.split(" ");
+	  for (i = 0; i < arr2.length; i++) {
+		if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+	  }
+	}
+
+	function w3RemoveClass(element, name) {
+	  var i, arr1, arr2;
+	  arr1 = element.className.split(" ");
+	  arr2 = name.split(" ");
+	  for (i = 0; i < arr2.length; i++) {
+		while (arr1.indexOf(arr2[i]) > -1) {
+		  arr1.splice(arr1.indexOf(arr2[i]), 1);     
+		}
+	  }
+	  element.className = arr1.join(" ");
+	}
+
+
+	// Add active class to the current button (highlight it)
+	var btnContainer = document.getElementById("myBtnContainer");
+	var btns = btnContainer.getElementsByClassName("btn");
+	for (var i = 0; i < btns.length; i++) {
+	  btns[i].addEventListener("click", function(){
+		var current = document.getElementsByClassName("active");
+		current[0].className = current[0].className.replace(" active", "");
+		this.className += " active";
+	  });
+	}
+	
+	</script>
+
 </html>
