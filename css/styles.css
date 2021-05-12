@@ -95,3 +95,14 @@ a:hover {color: firebrick;}
 .btn {border: none; outline: none; padding: 0.6em; margin:0.2em; background-color: #ddd; cursor: pointer;}
 .btn:hover {background-color: #555; color: white;}
 .btn.active {background-color: firebrick; color: white;}
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------*/
+/* --------------------------------------- Courses styles --------------------------------------- */
+/*----------------------------------------------------------------------------------------------*/
+
+.main-courses {flex:49%; _background-color: oldlace; padding: 2em; _border: 2px solid #f6f6f6;}
+.side-courses {flex:49%; _background-color: antiquewhite; padding: 2em;}
