@@ -7,12 +7,66 @@
 	color: #ca1616;
 }
 
+
 /*----------------------------------------------------------------------------------------------*/
 /* --------------------------------------- Index styles --------------------------------------- */
 /*----------------------------------------------------------------------------------------------*/
 
 * {box-sizing: border-box; font-family: 'Montserrat', sans-serif; _letter-spacing: -0.05em; scroll-behavior: smooth;}
 body {background-color: whitesmoke;}
+.box {
+	background: linear-gradient(180deg, indianred 0%, firebrick 100%); border-radius: 30px 0; position: relative; overflow: hidden;}
+.box:before,
+.box:after,
+.box .box-content:before,
+.box .box-content:after {
+    content: "";
+    background: #fff;
+    width: 50%;
+    height: 4px;
+    transform: scaleX(0);
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 1;
+    transition: all 600ms ease;
+}
+.box:after{top: auto; bottom: 15px; right: auto; left: 15px;}
+
+.box .box-content:before,
+.box .box-content:after {
+    width: 4px;
+    height: 50%;
+    transform: scaleY(0);
+}
+
+.box .box-content:after {right: auto; left: 15px; top: auto; bottom: 15px;}
+
+.box:hover:before,
+.box:hover:after,
+.box:hover .box-content:before,
+.box:hover .box-content:after {
+    transform: scale(1);
+}
+
+.box img {width: 100%; height: auto; transform: scale3d(1.1, 1.1, 1); transition: all 0.25s linear;}
+.box:hover img {opacity: 0.25; transform: scale(1.25);}
+.box .inner-content {color: #fff; text-align: center; width: 70%; opacity: 0; transform: translateX(-50%) translateY(-50%); position: absolute; top: 70%; left: 50%; transition: all 600ms ease;}
+.box:hover .inner-content {opacity: 1; top: 50%;}
+.box .title {font-size: 20px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; margin: 0 0 3px;}
+.box .post {font-size: 14px; letter-spacing: 1px; text-transform: capitalize; margin: 16px 0 0 16px; display: block;}
+.box .icon {padding: 0; margin: 0; list-style: none;}
+
+@media only screen and (max-width:990px){
+    .box { margin: 0 0 30px; }
+}
+
+
+
+/*----------------------------------------------------------------------------------------------*/
+/* --------------------------------------- CV styles ------------------------------------------ */
+/*----------------------------------------------------------------------------------------------*/
+
 .hr-bar {width: 100%; border: 0.120em solid #555; border-radius: 10px; background-color: #555;}
 .row {display: flex; flex-wrap: wrap;}
 .main {flex:59%; _background-color: oldlace; padding: 2em; _border: 2px solid #f6f6f6;}
@@ -85,7 +139,7 @@ a:hover {color: firebrick;}
 .row:after {content: ""; display: table; clear: both;}
 			
 /* Content */
-.content {background-color: #f1f1f1; padding: 10px; border:2px solid grey; width:100%; height: 180px;}
+.content-portfolio {background-color: #f1f1f1; padding: 10px; border:2px solid grey; width:100%; height: 180px;}
 			
 /* The "show" class is added to the filtered elements */
 .show {display: block;}
