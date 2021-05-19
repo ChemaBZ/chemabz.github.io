@@ -108,7 +108,7 @@ a:hover {color: firebrick;}
 
 
 @media (max-width: 600px) {
-	.column {width: 100% !important;}
+	.column {width: 100% !important; text-align: left !important;}
 }
 
 @media only screen and (min-width: 600px) {
@@ -125,16 +125,18 @@ a:hover {color: firebrick;}
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-	padding: 8px;
+	padding: 10px;
 }
 			
 .column {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-flex-wrap: wrap;
-	flex-flow: row wrap;
-	justify-content: center;
-	width: 33.33%;
+	_display: -webkit-flex;
+	_display: flex;
+	_-webkit-flex-wrap: wrap;
+	_flex-flow: row wrap;
+	_justify-content: center;
+	_width: 33.33%;
+	width: 100%;
+	text-align: center;
 	display: none; /* Hide all elements by default */
 }
 
@@ -142,7 +144,15 @@ a:hover {color: firebrick;}
 .row:after {content: ""; display: table; clear: both;}
 			
 /* Content */
-.content-portfolio {background-color: #f1f1f1; padding: 10px; border:2px solid grey; width:100%; height: 180px;}
+.content-portfolio {
+	background-color: #f1f1f1;
+	padding: 20px;
+	_border:2px solid grey;
+	width:100%;
+	_height: 180px;
+}
+
+.content-portfolio .date-description {margin-top: 6px;}
 			
 /* The "show" class is added to the filtered elements */
 .show {display: block;}
