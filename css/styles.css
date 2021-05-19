@@ -51,7 +51,7 @@ body {background-color: whitesmoke;}
 
 .box img {width: 100%; height: auto; transform: scale3d(1.1, 1.1, 1); transition: all 0.25s linear;}
 .box:hover img {opacity: 0.25; transform: scale(1.25);}
-.box .inner-content {color: #fff; text-align: center; width: 70%; opacity: 0; transform: translateX(-50%) translateY(-50%); position: absolute; top: 70%; left: 50%; transition: all 600ms ease;}
+.box .inner-content {color: #fff; text-align: center; width: 75%; opacity: 0; transform: translateX(-50%) translateY(-50%); position: absolute; top: 70%; left: 50%; transition: all 600ms ease;}
 .box:hover .inner-content {opacity: 1; top: 50%;}
 .box .title {font-size: 1.75em; font-weight: 800; letter-spacing: 1px; text-transform: none; margin: 0 0 3px;}
 .box .post {font-size: 0.825em; letter-spacing: 1px; text-transform: uppercase; margin: 16px 0 0 16px; display: block;}
