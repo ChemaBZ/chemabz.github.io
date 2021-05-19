@@ -109,6 +109,7 @@ a:hover {color: firebrick;}
 
 @media (max-width: 600px) {
 	.column {width: 100% !important; text-align: left !important;}
+	.content-portfolio {width: 100% !important;}
 }
 
 @media only screen and (min-width: 600px) {
@@ -146,9 +147,11 @@ a:hover {color: firebrick;}
 /* Content */
 .content-portfolio {
 	background-color: #f1f1f1;
+	border-left: 5px solid lightgrey;
 	padding: 20px;
 	_border:2px solid grey;
-	width:100%;
+	width: 70%;
+	margin: auto;
 	_height: 180px;
 }
 
