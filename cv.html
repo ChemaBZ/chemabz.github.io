@@ -37,16 +37,32 @@
 
 		<div class="container">
 		
+			<div id="mySidebar" class="sidebar">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+				<a href="./index.html" alt="Inicio" title="Inicio"><i class="fas fa-home mr-3"></i>Inicio</a>
+				<a href="./cv.html" alt="Currículum Vítae" title="Currículum Vítae"><i class="fas fa-folder-open mr-3"></i>Currículum</a>
+				<a href="./portfolio.html" alt="Portfolio" title="Portfolio"><i class="fas fa-feather-alt mr-3"></i>Portfolio</a>
+				<div class="mt-5">
+					<a class="" href="https://wa.me/34636141801" title="WhatsApp" alt="WhatsApp" target="_blank"><i class="fab fa-whatsapp mr-3"></i>WhatsApp</a>
+					<a class="" href="mailto:jmbarberarena@gmail.com" title="E-mail" alt="E-mail" target="_blank"><i class="fas fa-envelope mr-3"></i>E-Mail</a>
+					<a class="" href="https://www.linkedin.com/in/chemabarberarena/" title="LinkedIn" alt="LinkedIn" target="_blank"><i class="fab fa-linkedin-in mr-3"></i>LinkedIn</a>
+				</div>
+			</div>
+			
+			<div id="main-menu">
+				<button class="openbtn" onclick="openNav()">☰</button>  
+			</div>
+		
 			<div class="header">
 				<h1 class="name mt-4 pl-3">Chema Barberarena</h1>
 				<h3 class="profession pl-3">Diseñador y Desarrollador Web</h3>
-				<a class="line-links mt-4 float-right" href="./index.html" title="Inicio" alt="Inicio"><i class="fas fa-home"></i></a>
+				<!-- <a class="mt-4 float-right" href="./index.html" title="Inicio" alt="Inicio"><i class="fas fa-home"></i></a> -->
 				<hr class="hr-bar"/>
 			</div>
 			
-			<!-- <div class="float-right"><a href="./index.html" title="Inicio" alt="Inicio"><i class="fas fa-home"></i></a></div> -->
-			
 			<dl class="row normal-text ml-1">
+				<dt class="col-sm-2"><i class="fas fa-signature mr-2"></i>Nombre completo:</dt>
+				<dd class="col-sm-10">José Manuel Barberarena</dd>
 				<dt class="col-sm-2"><i class="fas fa-calendar mr-2"></i>Nacimiento:</dt>
 				<dd class="col-sm-10">27/09/1984 Santoña (Cantabria)</dd>
 				<dt class="col-sm-2"><i class="fas fa-map-marker-alt mr-2"></i>Residencia:</dt>
@@ -282,6 +298,21 @@
 			<div class="row" style="height:2em;"></div>
 			
 		</div>
+		
+		
+		<!-- Menú de navegación -->
+		<script>
+			function openNav() {
+			  document.getElementById("mySidebar").style.width = "250px";
+			  document.getElementById("main").style.marginLeft = "250px";
+			}
+
+			function closeNav() {
+			  document.getElementById("mySidebar").style.width = "0";
+			  document.getElementById("main").style.marginLeft= "0";
+			}
+		</script>
+		
 
 	</body>
 

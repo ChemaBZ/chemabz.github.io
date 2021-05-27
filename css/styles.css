@@ -62,6 +62,19 @@ body {background-color: whitesmoke;}
 @media only screen and (max-width:990px){
     .box {margin: 0 0 60px 0;}
 	.title-hidden {display:block; text-align:center; border-bottom:none !important;}
+	.line-links {font-size:20px !important;}
+	.profession {font-size: 1em !important;}
+	.btn-portfolio {width:100%;}
+	.h2-title {text-align:center;}
+	.text-description {text-align:center;}
+	.under-construction-text {font-size: 20px; text-align: center;}
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
 }
 
 
@@ -78,7 +91,7 @@ body {background-color: whitesmoke;}
 #experience-border {border-left: 5px solid lightgrey;}
 .links {display: flex; flex-flow: wrap; justify-content:flex-start;}
 .links > div {margin:10px 5px 10px 5px; padding:0;}
-.line-links {font-size:20px;}
+.line-links {font-size:25px;}
 .profession {font-size: 1.25em;}
 .title-heading {border-bottom: 1px solid #555; font-weight:bold; font-size: 17px; margin-bottom: 1em; text-transform: uppercase;}
 .job {margin-bottom:1.6em; padding-left:1em;}
@@ -100,6 +113,17 @@ a:hover {color: firebrick;}
 .badge-woo {background-color: #8053B4; color: #f1f1f1;}
 .btn-portfolio {background-color:indianred; font-size:13px; border-radius:3px; color: #f1f1f1; padding:.6em; text-decoration: none; text-transform: uppercase;}
 .btn-portfolio:hover {background-color:firebrick; color:#f1f1f1; text-decoration:none; transition-duration:0.9s;}
+
+/* Menú lateral */
+.sidebar {height: 100%; width: 0; position: fixed; z-index: 1; top: 0; left: 0; overflow-x: hidden; transition: 0.5s; padding-top: 100px; background: radial-gradient(circle at 10% -20%, firebrick, indianred, #E1D8CF);}
+.sidebar a {padding: 8px 8px 8px 32px; text-decoration: none; font-size: 16px; color: #f1f1f1; display: block; transition: 0.3s;}
+.sidebar a:hover {color: firebrick; background-color: #E1D8CF;}
+.sidebar .closebtn {position: absolute; top: 0; right: 25px; font-size: 36px; margin-left: 60px;}
+.sidebar .closebtn:hover {background-color: transparent;} 
+.openbtn {font-size: 16px; cursor: pointer; color: indianred; background-color: transparent; padding: 16px 20px 16px 20px; margin: 2px 0 0 0; border: none; font-weight: bold;}
+.openbtn:hover {background-color: indianred; color: #E1D8CF; transition: .5s;}
+#main-menu {transition: margin-left .5s; padding: 8px;}
+
 
 
 			
