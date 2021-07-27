@@ -201,3 +201,38 @@ a:hover {color: firebrick;}
 
 .main-courses {flex:49%; _background-color: oldlace; padding: 2em; _border: 2px solid #f6f6f6;}
 .side-courses {flex:49%; _background-color: antiquewhite; padding: 2em;}
+
+
+
+
+
+
+
+/*----------------------------------------------------------------------------------------------*/
+/* --------------------------------------- Projects styles --------------------------------------- */
+/*----------------------------------------------------------------------------------------------*/
+
+.card-projects {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.card-projects > div {
+	margin: 12px;
+	padding: 14px;
+	text-align: center;
+}
+.card {
+	box-shadow: 20px 20px 20px rgba(0,0,0,.2);
+	_background: #ffffff;
+	background: #f1f1f1 linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.1));
+}
+.card:hover{
+	box-shadow: 20px 20px 20px rgba(0,0,0,.4);
+	_background: #ffffff;
+	background:  linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.2));
+	transition-duration: .5s;
+}
+.card-title {
+	font-size: 18px;
+}
