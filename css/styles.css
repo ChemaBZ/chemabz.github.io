@@ -187,11 +187,9 @@ a:hover {color: firebrick;}
 			
 /* Style the buttons */
 #myBtnContainer {display:flex; flex-flow: row wrap; justify-content: center;}
-.btn {border: none; outline: none; padding: 0.6em; margin:0.2em; background-color: #ddd; cursor: pointer;}
-.btn:hover {background-color: #555; color: white;}
-.btn.active {background-color: firebrick; color: white;}
-
-
+.btn {background-color: indianred; border-radius:3px; color: #f1f1f1; font-size:13px; margin:.2em; outline: none; padding: .6em; text-decoration: none; text-transform: uppercase;}
+.btn:hover {background-color: firebrick; color: white; text-decoration:none; transition-duration:0.45s;}
+.btn.active {background-color: #555 ; color: white; font-weight: bold;}
 
 
 
