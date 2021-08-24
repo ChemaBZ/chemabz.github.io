@@ -111,7 +111,7 @@ a:hover {color: firebrick;}
 .badge-mysql {background-color: #017A9D; color: #f1f1f1;}
 .badge-wp {background-color: #444140; color: #f1f1f1;}
 .badge-woo {background-color: #8053B4; color: #f1f1f1;}
-.btn-portfolio {background-color:indianred; font-size:13px; border-radius:3px; color: #f1f1f1; padding:.6em; text-decoration: none; text-transform: uppercase;}
+.btn-portfolio {background-color:indianred; font-size:13px; border-radius:3px; color:#f1f1f1; padding:.6em; text-decoration:none; text-transform:uppercase;}
 .btn-portfolio:hover {background-color:firebrick; color:#f1f1f1; text-decoration:none; transition-duration:0.9s;}
 
 /* Menú lateral */
