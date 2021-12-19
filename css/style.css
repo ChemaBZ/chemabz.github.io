@@ -207,6 +207,8 @@ body {
 }
 
 .text .description-1 {
+	color: #000000;
+	font-family: "Arial Black", arial;
 	font-size: 2em;
 	letter-spacing: -2px;
 	margin-bottom: 40px;
@@ -215,6 +217,8 @@ body {
 
 @media screen and (max-width: 600px) {
 	.text .description-1 {
+		color: #000000;
+		font-family: "Arial Black", arial;
 		font-size: 1.6em;
 		text-shadow: none;
 	}
@@ -228,6 +232,8 @@ body {
 
 @media screen and (max-width: 600px) {
 	.text .description-2 {
+		color: #070707;
+		font-family: "Arial", arial;
 		font-size: 1.2em;
 		margin-bottom: 0;
 		text-shadow: none;
