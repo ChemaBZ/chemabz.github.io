@@ -25,13 +25,12 @@ body {
 
 @media screen and (max-width: 600px) {
 	.hero {
-		_position: relative;
-		_background-attachment: fixed;
-		_background-image: url('../assets/img/defenestracion_mockup_01_mobile.jpg');
-		_background-position: center;
-		_background-size: cover;
-		background: rgb(0,0,0);
-		background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(68,68,68,1) 50%, rgba(0,0,0,1) 100%);
+		_background: rgb(0,0,0);
+		_background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(68,68,68,1) 50%, rgba(0,0,0,1) 100%);
+		background: linear-gradient(45deg, #000000 20%, transparent 20%, transparent 80%, #000000 80%),linear-gradient(135deg, #000000 40%, #070707 40%, #070707 60%, #070707 60%, #000000 60%) , linear-gradient(45deg, #000000 20%, #070707 20%, #070707 80%, #000000 80%);
+        background-size: 1em 1em;
+        background-color: #000000;
+        opacity: 1
 	}
 	.hero::before {
 		opacity: 1;
@@ -80,6 +79,7 @@ body {
 
 @media screen and (max-width: 600px) {
 	.hero .wrap .box h1 {
+		font-family: 'Arial Black', arial !important;
 		font-size: 2em;
 		padding: 20px;
 	}
@@ -109,6 +109,7 @@ body {
 
 @media screen and (max-width: 600px) {
 	.hero .wrap .box h2 {
+		font-family: 'Arial Black', arial !important;
 		font-size: 1.4em;
 		letter-spacing: -1px;
 		text-shadow: none;
@@ -221,6 +222,7 @@ body {
 @media screen and (max-width: 600px) {
 	.text .description-1 {
 		color: #000000;
+		font-family: 'Arial Black', arial !important;
 		font-size: 1.6em;
 		text-shadow: none;
 	}
