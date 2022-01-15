@@ -7,7 +7,7 @@
 html {scroll-behavior: smooth;}
 
 body {
-	font-family: 'Arial', sans-serif;
+	font-family: 'Be Vietnam Pro', sans-serif;
 	background: rgb(255,255,255);
 	background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(241,241,241,1) 35%, rgba(136,136,136,1) 100%);
 }
@@ -27,9 +27,9 @@ body {
 	.hero {
 		_background: rgb(0,0,0);
 		_background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(68,68,68,1) 50%, rgba(0,0,0,1) 100%);
-		background: linear-gradient(45deg, #111111 0%, #111111 5%,transparent 5%, transparent 10%, #111111 10%, #111111 15%,transparent 15%,transparent 20%, #111111 20%, #111111 25%,transparent 25%,transparent 30%, #111111 30%, #111111 35%,transparent 35%,transparent 40%, #111111 40%, #111111 45%,transparent 45%,transparent 50%, #111111 50%, #111111 55%,transparent 55%,transparent 60%, #111111 60%, #111111 65%,transparent 65%,transparent 70%, #111111 70%, #111111 75%,transparent 70%,transparent 80%, #111111 80%, #111111 85%,transparent 85%,transparent 90%, #111111 90%, #111111 95%,transparent 95%);
-        background-size: 1em 1em;
-        background-color: #000000;
+		_background: linear-gradient(45deg, #111111 0%, #111111 5%,transparent 5%, transparent 10%, #111111 10%, #111111 15%,transparent 15%,transparent 20%, #111111 20%, #111111 25%,transparent 25%,transparent 30%, #111111 30%, #111111 35%,transparent 35%,transparent 40%, #111111 40%, #111111 45%,transparent 45%,transparent 50%, #111111 50%, #111111 55%,transparent 55%,transparent 60%, #111111 60%, #111111 65%,transparent 65%,transparent 70%, #111111 70%, #111111 75%,transparent 70%,transparent 80%, #111111 80%, #111111 85%,transparent 85%,transparent 90%, #111111 90%, #111111 95%,transparent 95%);
+        _background-size: 1em 1em;
+        _background-color: #000000;
         opacity: 1
 	}
 	.hero::before {
@@ -72,16 +72,13 @@ body {
 }
 
 .hero .wrap .box h1 {
-	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-	_font-family:'Barlow Semi Condensed', sans-serif;
 	font-size: 9vw;
+	font-weight: 900;
 	margin: 0 0 20px;
 }
 
 @media screen and (max-width: 600px) {
 	.hero .wrap .box h1 {
-		font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-		_font-family:'Barlow Semi Condensed', sans-serif;
 		font-size: 1.8em;
 		padding: 20px;
 		transform: scale(1.1, 1.2);
@@ -103,9 +100,8 @@ body {
 
 .hero .wrap .box h2 {
 	color: var(--orange);
-	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
-	_font-family:'Barlow Semi Condensed', sans-serif;
 	font-size: 2.5vw;
+	font-weight: 900;
 	line-height: 1;
 	text-transform: uppercase;
 	transform: scale(1, .875);
@@ -114,7 +110,6 @@ body {
 
 @media screen and (max-width: 600px) {
 	.hero .wrap .box h2 {
-		font-family: "Arial Black", "Arial Bold", Gadget, sans-serif !important;
 		font-size: 1.4em;
 		letter-spacing: -1px;
 		text-shadow: none;
@@ -125,13 +120,14 @@ body {
 	background-color: rgb(0,0,0); /* Fallback color */
 	background-color: rgba(0,0,0, 0.5); /* Black w/opacity/see-through */
 	color: #fff;
-	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 	font-size: 2vw;
+	font-weight: 900;
 	line-height: 1;
 	padding: 50px;
 	max-width: 520px;
 	margin: auto;
 	text-shadow: -4px 5px 8px #000000;
+	transform: scale(1.2, 1);
 }
 
 @media screen and (max-width: 600px) {
@@ -139,16 +135,16 @@ body {
 		background-color: rgb(0,0,0); /* Fallback color */
 		background-color: rgba(0,0,0, 0.25); /* Black w/opacity/see-through */
 		font-size: 1.4em;
-		_letter-spacing: 6px;
 		max-width: 100%;
 		padding: 20px;
-		text-transform: uppercase;
+		_text-transform: uppercase;
 	}
 }
 
 .hero .wrap .box .cta {
 	display: flex;
 	flex-flow: row wrap;
+	font-weight: 900;
 	justify-content: center;
 	margin-top: 40px;
 	text-shadow: -3px 1px 3px #777777;
@@ -164,11 +160,10 @@ body {
 	background-color: var(--orange);
 	border: 2px solid var(--orange);
 	color: #fff;
-	text-transform: uppercase;
-	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 	margin: 10px;
 	padding: 20px 40px;
 	text-decoration: none;
+	text-transform: uppercase;
 }
 
 .hero .wrap .box .cta .button-primary:hover {
@@ -183,11 +178,10 @@ body {
 	background-color: transparent;
 	border: 2px solid #fff;
 	color: #fff;
-	text-transform: uppercase;
-	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 	margin: 10px;
 	padding: 20px 40px;
 	text-decoration: none;
+	text-transform: uppercase;
 }
 
 .hero .wrap .box .cta .button-secondary:hover {
@@ -219,8 +213,8 @@ body {
 
 .text .description-1 {
 	color: #000000;
-	font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 	font-size: 2em;
+	font-weight: 700;
 	letter-spacing: -2px;
 	margin-bottom: 40px;
 	text-shadow: -1px 1px 1px #777;
@@ -229,21 +223,22 @@ body {
 @media screen and (max-width: 600px) {
 	.text .description-1 {
 		color: #000000;
-		font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 		font-size: 1.6em;
+		line-height: 1.25;
 		text-shadow: none;
 	}
 }
 
 .text .description-2 {
 	font-size: 1.5em;
+	font-weight: 500;
 	_text-shadow: -1px 1px 1px lightgrey;
 }
 
 @media screen and (max-width: 600px) {
 	.text .description-2 {
 		color: #070707;
-		font-size: 1.2em;
+		font-size: 1.1em;
 		margin-bottom: 0;
 		text-shadow: none;
 	}
@@ -269,7 +264,7 @@ body {
 
 .bio {
 	margin: 0 auto;
-	max-width: 850px;
+	max-width: 750px;
 	padding: 20px 0 150px 0;
 }
 
@@ -279,7 +274,6 @@ body {
 }
 
 .bio p {
-	font-family: 'Arial', sans-serif;
 	font-size: 0.9em;
 	color: #070707;
 	border: 3px solid #c9c9c9;
@@ -295,11 +289,9 @@ body {
 @media screen and (max-width: 600px) {
 	.bio { margin: 20px; }
 	.bio img { width: 100%; }
-	.bio p { border: none; color: #333; font-family: "Arial", sans-serif; font-size: 1.1em; padding: 30px 0 !important; text-align: center; }
+	.bio p { border: none; color: #333; font-size: 1em; margin-bottom: -5em; padding: 30px 0 !important; text-align: center; }
 	.bio .hr-bio { display: none; }
 }
-
-
 
 .footer {
 	background: linear-gradient(45deg, #111111 0%, #111111 5%,transparent 5%, transparent 10%, #111111 10%, #111111 15%,transparent 15%,transparent 20%, #111111 20%, #111111 25%,transparent 25%,transparent 30%, #111111 30%, #111111 35%,transparent 35%,transparent 40%, #111111 40%, #111111 45%,transparent 45%,transparent 50%, #111111 50%, #111111 55%,transparent 55%,transparent 60%, #111111 60%, #111111 65%,transparent 65%,transparent 70%, #111111 70%, #111111 75%,transparent 70%,transparent 80%, #111111 80%, #111111 85%,transparent 85%,transparent 90%, #111111 90%, #111111 95%,transparent 95%);
@@ -313,13 +305,13 @@ body {
 }
 
 .credits {
-	font-family: 'Arial', sans-serif;
 	font-size: 12px;
 	color: grey;
 }
 
 @media screen and (max-width: 600px) {
 	.credits {
+		font-size: 0.625em;
 		margin: 0 50px 0 50px;
 	}
 }
