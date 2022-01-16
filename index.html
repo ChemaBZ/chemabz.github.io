@@ -71,6 +71,7 @@
 			<p class="description-2">Ricardo Vidal deambula por la vida. Inmerso en la treintena y perdido en sus adicciones, no logra centrar sus deseos futuros ni asumir su nebuloso pasado. Un hecho puntual remueve involuntariamente su indiferencia. Los acontecimientos comienzan a sucederse y los recuerdos aparecen. Una figura emergerá de entre las sombras para recordarle que no todo era como parecía.<br>Comienza el camino hacia la <strong class="text-underline">defenestración</strong>.</p>
 		</section>
 		
+		
 		<section class="row align-items-center bio">
 			<div class="col-12 col-md-4">
 				<img src="./assets/img/YO2016bisreducida_BN.jpg" width=200 />
@@ -92,7 +93,8 @@
 				
 				<div class="credits">
 					<span style="font-size: 16px; font-family:'Arial Black', arial;"><span class="defenes">DEFENES</span><span class="tra">TRA</span><span class="cion">CIÓN</span></span><br>
-					<span>Chema Barberarena, 2021</span><br><br>
+					<span>Chema Barberarena, <span id="fecha"></span></span>
+					<br><br>
 					<span>Licencia: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0</span><br>
 					<span>Código de registro: <i>2111299929229</i></span><br>
 					<span>URL información pública: <i><a href="https://www.safecreative.org/work/2111299929229-defenestracion" target="_blank">https://www.safecreative.org/work/2111299929229-defenestracion</a></i></span><br>
@@ -122,6 +124,12 @@
 				document.body.scrollTop = 0;
 				document.documentElement.scrollTop = 0;
 			}
+			
+			//Current year in footer
+			var ano = (new Date).getFullYear();
+			$(document).ready(function() {
+				$("#fecha").text( ano );
+			});
 		</script>
 		
 	</body>

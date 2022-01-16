@@ -30,7 +30,7 @@ body {
 		_background: linear-gradient(45deg, #111111 0%, #111111 5%,transparent 5%, transparent 10%, #111111 10%, #111111 15%,transparent 15%,transparent 20%, #111111 20%, #111111 25%,transparent 25%,transparent 30%, #111111 30%, #111111 35%,transparent 35%,transparent 40%, #111111 40%, #111111 45%,transparent 45%,transparent 50%, #111111 50%, #111111 55%,transparent 55%,transparent 60%, #111111 60%, #111111 65%,transparent 65%,transparent 70%, #111111 70%, #111111 75%,transparent 70%,transparent 80%, #111111 80%, #111111 85%,transparent 85%,transparent 90%, #111111 90%, #111111 95%,transparent 95%);
         _background-size: 1em 1em;
         _background-color: #000000;
-        opacity: 1
+        opacity: 1;
 	}
 	.hero::before {
 		opacity: 1;
@@ -79,7 +79,7 @@ body {
 
 @media screen and (max-width: 600px) {
 	.hero .wrap .box h1 {
-		font-size: 1.8em;
+		font-size: 2em;
 		padding: 20px;
 		transform: scale(1.1, 1.2);
 	}
@@ -134,7 +134,7 @@ body {
 	.hero .wrap .box h4 {
 		background-color: rgb(0,0,0); /* Fallback color */
 		background-color: rgba(0,0,0, 0.25); /* Black w/opacity/see-through */
-		font-size: 1.4em;
+		font-size: 1.8em;
 		max-width: 100%;
 		padding: 20px;
 		_text-transform: uppercase;
@@ -152,6 +152,7 @@ body {
 
 @media screen and (max-width: 600px) {
 	.hero .wrap .box .cta > a {
+		font-size: 1.325em;
 		width: 100%;
 	}
 }
@@ -223,7 +224,7 @@ body {
 @media screen and (max-width: 600px) {
 	.text .description-1 {
 		color: #000000;
-		font-size: 1.6em;
+		font-size: 2em;
 		line-height: 1.25;
 		text-shadow: none;
 	}
