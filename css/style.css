@@ -263,12 +263,68 @@ body {
 	}
 }
 
+.buy-book > div {
+	border-bottom: 2px solid lightgrey;
+	padding: 40px;
+}
+
+.buy-book img {
+	-webkit-box-shadow: -3px 3px 5px -2px #000000;
+	box-shadow: -3px 3px 5px -2px #000000;
+}
+
+.price {
+	color: var(--orange);
+	font-size: 1.4em;
+	font-weight: 900;
+	padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+	.buy-book > div { border-bottom: none; padding: 0; }
+	.buy-book img { width: 50px; }
+	.price { font-size: 1em; }
+	.buy-book .button-primary, .button-secondary { padding: 20px 15px 20px 20px !important; }
+	.buy-book .i-want { display: none;}
+}
+
+.buy-book .button-primary, .button-secondary {
+	background-color: var(--orange);
+	color: #fff;
+	font-weight: 900;
+	margin: 10px;
+	padding: 20px 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.buy-book .button-primary:hover {
+	background-color: #272727;
+	color: #f1f1f1;
+	transition-duration: 0.75s;
+}
+
+.buy-book .button-secondary:hover {
+	background-color: #ffffff;
+	color: var(--orange);
+	transition-duration: 0.75s;
+}
 
 
-.pre-testimonial {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
+.testimonials { display: flex; flex-flow: row wrap; justify-content: center; }
+.single-testimonial { margin: 30px 0 50px 0; }
+#rating-title { _height: 3em; }
+#continue-reading {
+	background-color: var(--orange) !important;
+	color: #f1f1f1;
+	font-size: 12px !important;
+	padding: 5px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+#continue-reading:hover {
+	background-color: #777 !important;
+	transition-duration: 0.75s;
 }
 
 .checked { color: orange; }
