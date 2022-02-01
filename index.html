@@ -1,361 +1,482 @@
 <!DOCTYPE html>
 <html lang="es">
 
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="description" content="DEFENESTRACIÓN | Una sombra que aparece desde la oscuridad. Un peregrinaje por los lugares más recónditos de la vida y la familia. Un mundo que comienza a derrumbarse.">
-		<meta name="keywords" content="HTML, CSS, JavaScript">
-		<meta name="author" content="Chema Barberarena">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta property="og:title" content="DEFENESTRACIÓN | Chema Barberarena" />
-		<meta property="og:url" content="http://defenestracion.com" />
-		<meta property="og:image" content="https://scontent.fsvq4-1.fna.fbcdn.net/v/t39.30808-6/263955776_100952549109216_331412307145064782_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=19026a&_nc_ohc=np3Et_7QhjAAX_2F7aP&_nc_ht=scontent.fsvq4-1.fna&oh=00_AT9SBak4zgVgePQlTj3W6ZqaQO4bg0e3dbdaeupRbIC-pA&oe=61C45834" />
-		
-		<link rel="canonical" href="http://defenestracion.com/" />
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="description"
+		content="DEFENESTRACIÓN | Una sombra que aparece desde la oscuridad. Un peregrinaje por los lugares más recónditos de la vida y la familia. Un mundo que comienza a derrumbarse." />
+	<meta name="keywords" content="HTML, CSS, JavaScript" />
+	<meta name="author" content="Chema Barberarena" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta property="og:title" content="DEFENESTRACIÓN | Chema Barberarena" />
+	<meta property="og:url" content="http://defenestracion.com" />
+	<meta property="og:image"
+		content="https://scontent.fsvq4-1.fna.fbcdn.net/v/t39.30808-6/263955776_100952549109216_331412307145064782_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=19026a&_nc_ohc=np3Et_7QhjAAX_2F7aP&_nc_ht=scontent.fsvq4-1.fna&oh=00_AT9SBak4zgVgePQlTj3W6ZqaQO4bg0e3dbdaeupRbIC-pA&oe=61C45834" />
 
-		<!-- Latest compiled and minified CSS -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<link rel="canonical" href="http://defenestracion.com/" />
 
-		<!-- Archivo CSS -->
-        <link href="./css/style.css" rel="stylesheet" />
-		
-		<!-- Be Vietnam Pro Font -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+		crossorigin="anonymous"></script>
 
-		<!-- jQuery library -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- Archivo CSS -->
+	<link href="./css/style.css" rel="stylesheet" />
 
-		<!-- Font Awesome -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-		
-		<!-- Favicon -->
-		<link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
-		
-		<!-- AOS -->
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-		
-		<title>DEFENESTRACIÓN | Chema Barberarena | YA A LA VENTA</title>
+	<!-- Be Vietnam Pro Font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet" />
 
-	</head>
-	
-	<body>
-	
-		<button onclick="topFunction()" id="myBtn" title="Ir arriba">&#10148;</button>
-		
-		<section class="hero">
-			<div class="wrap">
-				<div class="box">
-					<h2>Chema Barberarena</h2>
-					<h1 data-aos="zoom-in" data-aos-easing="linear" data-aos-delay="0" data-aos-duration="800" data-aos-anchor-placement="center-bottom"><span class="defenes">DEFENES</span><span class="tra">TRA</span><span class="cion">CIÓN</span></h1>
-					<h4>Ya a la venta</h4>
-					<div class="cta align-items-center">
-						<a href="https://amzn.to/3F84ZqS" class="button-primary" target="_blank"><i style="margin-right:10px;" class="fas fa-shopping-cart" rel="external"></i>Comprar</a>
-						<a href="https://amzn.to/3seH4lL" class="button-secondary" target="_blank"><i style="margin-right:10px;" class="fas fa-tablet-alt" rel="external"></i>eBook</a>
-					</div>
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+		integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous" />
+
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+
+	<!-- AOS -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+	<title>DEFENESTRACIÓN | Chema Barberarena | YA A LA VENTA</title>
+</head>
+
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Ir arriba">
+		&#10148;
+	</button>
+
+	<section class="hero">
+		<div class="wrap">
+			<div class="box">
+				<h2>Chema Barberarena</h2>
+				<h1 data-aos="zoom-in" data-aos-easing="linear" data-aos-delay="0" data-aos-duration="800"
+					data-aos-anchor-placement="center-bottom">
+					<span class="defenes">DEFENES</span><span class="tra">TRA</span><span class="cion">CIÓN</span>
+				</h1>
+				<h4>Ya a la venta</h4>
+				<div class="cta align-items-center">
+					<a href="https://amzn.to/3F84ZqS" class="button-primary" target="_blank"><i
+							style="margin-right: 10px" class="fas fa-shopping-cart" rel="external"></i>Comprar</a>
+					<a href="https://amzn.to/3seH4lL" class="button-secondary" target="_blank"><i
+							style="margin-right: 10px" class="fas fa-tablet-alt" rel="external"></i>eBook</a>
 				</div>
 			</div>
-		</section>
-		
-		<section class="mockup d-flex justify-content-center mt-5">
-			<img src="./assets/img/defenestracion_mockup_01_A.png" width=400 alt="Defenestración" />
-		</section>
-		
-		
-		<section class="text">
-			<p class="description-1">Una sombra que aparece desde la oscuridad.<br> Un peregrinaje por los lugares más recónditos de la vida y la familia.<br> Un mundo que comienza a derrumbarse.</p>
-			<p class="description-2">Ricardo Vidal deambula por la vida. Inmerso en la treintena y perdido en sus adicciones, no logra centrar sus deseos futuros ni asumir su nebuloso pasado. Un hecho puntual remueve involuntariamente su indiferencia. Los acontecimientos comienzan a sucederse y los recuerdos aparecen. Una figura emergerá de entre las sombras para recordarle que no todo era como parecía.<br>Comienza el camino hacia la <strong class="text-underline">defenestración</strong>.</p>
-		</section>
-		
-		
-		<section class="text">
-			<p class="description-2 text-uppercase pb-3"><i class="fab fa-spotify"></i><span class="m-4"><span class="fw-bolder">Defenestración</span> en Spotify</span></p>
-			<p class="mb-5">Todas las canciones que aparecen en la novela. Todas las melodías que caminan junto a la historia de 'Defenestración'. Los grupos, las referencias, las frases. La lista de música que acompaña a Ricardo Vidal.</p>
-			<iframe src="https://open.spotify.com/embed/playlist/0CMVbmeOFh8XbQrXddMox5?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-		</section>
-		
-		
-		
-		<section class="text buy-book">
-			<div class="d-flex flex-row justify-content-between align-items-center mb-5">
-				<div><img src="./assets/img/defenestracion_cover.png" width=100 alt="Defenestración" /></div>
-				<div class="description-2">Tapa blanda</div>
-				<div class="price">13'95€</div>
-				<div><a class="button-primary" href="https://www.amazon.es/dp/B09NR9PP1W" target="_blank"><i style="margin-right:10px;" class="fas fa-shopping-cart" rel="external"></i><span class="i-want">Lo quiero</span></a></div>
-			</div>
-			<div class="d-flex flex-row justify-content-between align-items-center">
-				<div><img src="./assets/img/defenestracion_mockup_12_ebook.png" width=100 alt="Defenestración" /></div>
-				<div class="description-2">eBook Kindle</div>
-				<div class="price">3'99€</div>
-				<div><a class="button-secondary" href="https://www.amazon.es/Defenestraci%C3%B3n-Chema-Barberarena-ebook/dp/B09NQQVL8G/" target="_blank"><i style="margin-right:10px;" class="fas fa-tablet-alt" rel="external"></i><span class="i-want">Lo quiero</span></a></div>
-			</div>
-		</section>
-		
-		
-		<section class="text">
-		
-			<p class="description-2 text-uppercase pb-3"><i class="fas fa-star"></i><span class="m-4">Las <span class="fw-bolder">reseñas</span> de la novela</span></p>
-			<div class="testimonials">
-				
-					<div class="">
-						<figure class="single-testimonial">
-							<blockquote class="blockquote fs-6">
-								<div id="rating-title">
-									<span class="rating-stars">
-										<span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
-									</span>
-									<span class="fw-bolder mx-auto">¡Muy top!</span>
-								</div>
-								<p class="text-muted">31 de enero de 2022</p>
-								<p class="verified-purchase">Compra verificada</p>
-								<p>Novela dura donde las haya. Para ser su primera novela está muy bien escrita y descrita. Hace referencia a hechos tabú de la vida que, aunque la gente quiera que pasen desapercibidos, están ahí.</p>
-								<a id="continue-reading" href="https://www.amazon.es/gp/customer-reviews/R1T2SB8HKHN9H5/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09NR9PP1W" target="_blank">Reseña completa</a>
-							</blockquote>
-							<!--<figcaption class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></figcaption>-->
-						</figure>
-						<hr />
-					</div>
-					<div class="">
-						<figure class="single-testimonial">
-							<blockquote class="blockquote fs-6">
-								<div id="rating-title">
-									<span class="rating-stars">
-										<span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
-									</span>
-									<span class="fw-bolder mx-auto">Vibrante, con ritmo, sin paños calientes. La vida.</span>
-								</div>
-								<p class="text-muted">22 de enero de 2022</p>
-								<p class="verified-purchase">Compra verificada</p>
-								<p>Te engancha de principio a fin, es fantástica. Cada uno se puede ver reflejado en algún momento de la historia. En este caso, el autor contradice a Jorge Drexler y ama tanto la trama como el desenlace.</p>
-								<a id="continue-reading" href="https://www.amazon.es/gp/customer-reviews/R7GSMAWRYCXS2/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B09NR9PP1W" target="_blank">Reseña completa</a>
-							</blockquote>
-							<!--<figcaption class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></figcaption>-->
-						</figure>
-						<hr />
-					</div>
-					<div class="">
-						<figure class="single-testimonial">
-							<blockquote class="blockquote fs-6">
-								<div id="rating-title">
-									<span class="rating-stars">
-										<span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
-									</span>
-									<span class="fw-bolder mx-auto">¡Increíblemente bueno!</span>
-								</div>
-								<p class="text-muted">19 de enero de 2022</p>
-								<p class="verified-purchase">Compra verificada</p>
-								<p>Una novela que me ha impresionado entre anécdotas y recuerdos por pasado y presente, sin tregua, con una banda sonora propia muy difícil de olvidar (...) Reflexiva, muy psicológica y con un final arriesgado y aplastante. Tiene de todo, (...) desde un punto de vista sincero y crudo. Un libro para leer tranquilos, con mucho que decir, mucha realidad. Magistral la manera en la que está escrito. De esas historias "que traspasan". Increíble lectura.</p>
-								<a id="continue-reading" href="https://www.amazon.es/gp/customer-reviews/RLHMHD6X4O4S8/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B09NR9PP1W" target="_blank">Reseña completa</a>
-							</blockquote>
-							<!--<figcaption class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></figcaption>-->
-						</figure>
-						<hr />
-					</div>
-				
-				
-					<div class="">
-						<figure class="single-testimonial">
-							<blockquote class="blockquote fs-6">
-								<div id="rating-title">
-									<span class="rating-stars">
-										<span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="far fa-star"></span>
-									</span>
-									<span class="fw-bolder mx-auto">Ojalá tenga la difusión que merece. Obra redonda para releer y pensar.</span>
-								</div>
-								<p class="text-muted">18 de enero de 2022</p>
-								<p class="verified-purchase">Compra verificada</p>
-								<p>Trama bien trabajada, muy bien escrito y con un final redondo. El punto fuerte, la descripción psicológica de los personajes, muy trabajada, progresiva y pensada. La forma de escribir es elaborada, buscando la reflexión del lector. Es una obra que deja huella. Mi consejo es que, sin duda, le deis una oportunidad. Para mí ha sido un descubrimiento, y en su conjunto es una obra redonda y creíble (aunque sorprendente). Hay talento, te deja con ganas de más.</p>
-								<a id="continue-reading" href="https://www.amazon.es/gp/customer-reviews/R2UITLF9CB94R9/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B09NR9PP1W" target="_blank">Reseña completa</a>
-							</blockquote>
-							<!--<figcaption class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></figcaption>-->
-						</figure>
-						<hr />
-					</div>
-					<div class="">
-						<figure class="single-testimonial">
-							<blockquote class="blockquote fs-6">
-								<div id="rating-title">
-									<span class="rating-stars">
-										<span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
-									</span>
-									<span class="fw-bolder mx-auto">Perfecto regalo o autoregalo.</span>
-								</div>
-								<p class="text-muted">8 de enero de 2022</p>
-								<p class="verified-purchase">Compra verificada</p>
-								<p>Me ha encantado. Novela psicológica que te atrapa desde la primera página. Perfectamente escrita, cuidando cada detalle del perfil de los protagonistas, sus relaciones, así como de los ambientes urbanos por los que transitan, que te va llevando poco a poco hacia un sorprendente e inesperado final. La profundidad de los hechos nos acompaña a lo largo de cada página, invitándonos a reflexionar sobre nuestra propia experiencia vital.</p>
-								<a id="continue-reading" href="https://www.amazon.es/gp/customer-reviews/R3V6S3LDDKPYYA/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B09NR9PP1W" target="_blank">Reseña completa</a>
-							</blockquote>
-							<!--<figcaption class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></figcaption>-->
-						</figure>
-						<hr />
-					</div>
-				
-				
-					<div class="">
-						<figure class="single-testimonial">
-							<blockquote class="blockquote fs-6">
-								<div id="rating-title">
-									<span class="rating-stars">
-										<span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
-									</span>
-									<span class="fw-bolder mx-auto">De los mejores libros que he leído últimamente.</span>
-								</div>
-								<p class="text-muted">19 de diciembre de 2021</p>
-								<p class="verified-purchase">Compra verificada</p>
-								<p>Una historia emocionante, dura y muy bien narrada. Uno de los mejores libros que he leído en los últimos tiempos. Sorpresa muy agradable.</p>
-								<a id="continue-reading" href="https://www.amazon.es/gp/customer-reviews/R2GUJ6L58RD3IP/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B09NR9PP1W" target="_blank">Reseña completa</a>
-							</blockquote>
-							<!--<figcaption class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></figcaption>-->
-						</figure>
-						<hr />
-					</div>
-				
-			</div>
-			
-		</section>
-		
-		
-		<!-- <section class="text"> -->
-			<!-- <p class="description-2">Opiniones de clientes</p> -->
-			<!-- <span class="rating-stars-global"> -->
-				<!-- <span class="fa fa-star checked"></span> -->
-				<!-- <span class="fa fa-star checked"></span> -->
-				<!-- <span class="fa fa-star checked"></span> -->
-				<!-- <span class="fa fa-star checked"></span> -->
-				<!-- <span class="fa fa-star checked"></span> -->
-			<!-- </span> -->
-			<!-- <span class="global-opinions-text" style="margin-left:20px;">7 valoraciones globales (4,8 de 5)</span> -->
-			<!-- <hr style="border:2px solid #000;" /> -->
+		</div>
+	</section>
 
-			<!-- <div class="row"> -->
-			  <!-- <div class="side"> -->
-				<!-- <div>5 estrellas</div> -->
-			  <!-- </div> -->
-			  <!-- <div class="middle"> -->
-				<!-- <div class="bar-container"> -->
-				  <!-- <div class="bar-5"></div> -->
-				<!-- </div> -->
-			  <!-- </div> -->
-			  <!-- <div class="side right"> -->
-				<!-- <div>6</div> -->
-			  <!-- </div> -->
-			  <!-- <div class="side"> -->
-				<!-- <div>4 estrellas</div> -->
-			  <!-- </div> -->
-			  <!-- <div class="middle"> -->
-				<!-- <div class="bar-container"> -->
-				  <!-- <div class="bar-4"></div> -->
-				<!-- </div> -->
-			  <!-- </div> -->
-			  <!-- <div class="side right"> -->
-				<!-- <div>1</div> -->
-			  <!-- </div> -->
-			  <!-- <div class="side"> -->
-				<!-- <div>3 estrellas</div> -->
-			  <!-- </div> -->
-			  <!-- <div class="middle"> -->
-				<!-- <div class="bar-container"> -->
-				  <!-- <div class="bar-3"></div> -->
-				<!-- </div> -->
-			  <!-- </div> -->
-			  <!-- <div class="side right"> -->
-				<!-- <div>0</div> -->
-			  <!-- </div> -->
-			  <!-- <div class="side"> -->
-				<!-- <div>2 estrellas</div> -->
-			  <!-- </div> -->
-			  <!-- <div class="middle"> -->
-				<!-- <div class="bar-container"> -->
-				  <!-- <div class="bar-2"></div> -->
-				<!-- </div> -->
-			  <!-- </div> -->
-			  <!-- <div class="side right"> -->
-				<!-- <div>0</div> -->
-			  <!-- </div> -->
-			  <!-- <div class="side"> -->
-				<!-- <div>1 estrella</div> -->
-			  <!-- </div> -->
-			  <!-- <div class="middle"> -->
-				<!-- <div class="bar-container"> -->
-				  <!-- <div class="bar-1"></div> -->
-				<!-- </div> -->
-			  <!-- </div> -->
-			  <!-- <div class="side right"> -->
-				<!-- <div>0</div> -->
-			  <!-- </div> -->
-			<!-- </div> -->
-		<!-- </section> -->
-		
-		
-		
-		<section class="row text" style="margin-bottom: -100px;">
-			<p class="description-2 text-uppercase pb-3"><i class="fas fa-bookmark"></i><span class="m-4">El autor</span></p>
-		</section>
-		
-		<section class="row align-items-center bio">
-			<div class="col-12 col-md-4">
-				<img src="./assets/img/YO2016bisreducida_BN.jpg" width=200 />
-			</div>
-			<div class="col-12 col-md-8">
-				<hr class="hr-bio"/>
-				<p class="description-2"><strong>Chema Barberarena</strong> nació en Santoña (Cantabria), el 27 de septiembre de 1984.<br><br>Músico de vocación, su carácter artístico y creativo siempre ha destacado en su trayectoria vital. Amante del dibujo y la lectura, se embarca ahora en la que es su primera novela, un relato psicológico, crudo y descarnado, sobre las relaciones familiares y los recuerdos.</p>
-				<hr class="hr-bio"/>
-			</div>
-		</section>
-		
-		<footer class="footer">
-			<div class="social">
-				<a href="https://www.facebook.com/chemabarberarenaoficial" target="_blank"><i class="fab fa-facebook-f"></i></a>
-				<a href="https://www.instagram.com/chemabarberarena/" target="_blank"><i class="fab fa-instagram"></i></a>
-				<a href="mailto:chemabarberarena@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
-			</div>
+	<section class="mockup d-flex justify-content-center mt-5">
+		<img src="./assets/img/defenestracion_mockup_01_A.png" width="400" alt="Defenestración" />
+	</section>
+
+	<section class="text">
+		<p class="description-1">
+			Una sombra que aparece desde la oscuridad.<br />
+			Un peregrinaje por los lugares más recónditos de la vida y la
+			familia.<br />
+			Un mundo que comienza a derrumbarse.
+		</p>
+		<p class="description-2">
+			Ricardo Vidal deambula por la vida. Inmerso en la treintena y perdido en
+			sus adicciones, no logra centrar sus deseos futuros ni asumir su
+			nebuloso pasado. Un hecho puntual remueve involuntariamente su
+			indiferencia. Los acontecimientos comienzan a sucederse y los recuerdos
+			aparecen. Una figura emergerá de entre las sombras para recordarle que
+			no todo era como parecía.<br />Comienza el camino hacia la
+			<strong class="text-underline">defenestración</strong>.
+		</p>
+	</section>
+
+	<section class="text">
+		<p class="description-2 text-uppercase pb-3">
+			<i class="fab fa-spotify"></i><span class="m-4"><span class="fw-bolder">Defenestración</span> en
+				Spotify</span>
+		</p>
+		<p class="mb-5">
+			Todas las canciones que aparecen en la novela. Todas las melodías que
+			caminan junto a la historia de 'Defenestración'. Los grupos, las
+			referencias, las frases. La lista de música que acompaña a Ricardo
+			Vidal.
+		</p>
+		<iframe src="https://open.spotify.com/embed/playlist/0CMVbmeOFh8XbQrXddMox5?utm_source=generator" width="100%"
+			height="380" frameborder="0" allowfullscreen=""
+			allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+	</section>
+
+	<section class="text buy-book">
+		<div class="d-flex flex-row justify-content-between align-items-center mb-5">
 			<div>
-				
-				<div class="credits">
-					<span style="font-size: 16px; font-family:'Arial Black', arial;"><span class="defenes">DEFENES</span><span class="tra">TRA</span><span class="cion">CIÓN</span></span><br>
-					<span>Chema Barberarena, <span id="fecha"></span></span>
-					<br><br>
-					<span>Licencia: Creative Commons Attribution-NonCommercial-NoDerivatives 4.0</span><br>
-					<span>Código de registro: <i>2111299929229</i></span><br>
-					<span>URL información pública: <i><a href="https://www.safecreative.org/work/2111299929229-defenestracion" target="_blank">https://www.safecreative.org/work/2111299929229-defenestracion</a></i></span><br>
-				</div>
+				<img src="./assets/img/defenestracion_cover.png" width="100" alt="Defenestración" />
 			</div>
-		</footer>
-		
-		<script>
-			AOS.init();
-		</script>
-		
-		<script>
-			var mybutton = document.getElementById("myBtn");
-			// When the user scrolls down 20px from the top of the document, show the button
-			window.onscroll = function() {scrollFunction()};
+			<div class="description-2">Tapa blanda</div>
+			<div class="price">13'95€</div>
+			<div>
+				<a class="button-primary" href="https://www.amazon.es/dp/B09NR9PP1W" target="_blank"><i
+						style="margin-right: 10px" class="fas fa-shopping-cart" rel="external"></i><span
+						class="i-want">Lo quiero</span></a>
+			</div>
+		</div>
+		<div class="d-flex flex-row justify-content-between align-items-center">
+			<div>
+				<img src="./assets/img/defenestracion_mockup_12_ebook.png" width="100" alt="Defenestración" />
+			</div>
+			<div class="description-2">eBook Kindle</div>
+			<div class="price">3'99€</div>
+			<div>
+				<a class="button-secondary"
+					href="https://www.amazon.es/Defenestraci%C3%B3n-Chema-Barberarena-ebook/dp/B09NQQVL8G/"
+					target="_blank"><i style="margin-right: 10px" class="fas fa-tablet-alt" rel="external"></i><span
+						class="i-want">Lo quiero</span></a>
+			</div>
+		</div>
+	</section>
 
-			function scrollFunction() {
-				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-					mybutton.style.display = "block";
-				} else {
-					mybutton.style.display = "none";
-				}
-			}
+	<section class="text">
+		<p class="description-2 text-uppercase pb-3">
+			<i class="fas fa-star"></i><span class="m-4">Las <span class="fw-bolder">reseñas</span> de la novela</span>
+		</p>
+		<div class="testimonials">
+			<div class="">
+				<figure class="single-testimonial">
+					<blockquote class="blockquote fs-6">
+						<div id="rating-title">
+							<span class="rating-stars">
+								<span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+									class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+									class="fa fa-star checked"></span>
+							</span>
+							<span class="fw-bolder mx-auto">¡Muy top!</span>
+						</div>
+						<p class="text-muted">31 de enero de 2022</p>
+						<p class="verified-purchase">Compra verificada</p>
+						<p>
+							Novela dura donde las haya. Para ser su primera novela está muy
+							bien escrita y descrita. Hace referencia a hechos tabú de la
+							vida que, aunque la gente quiera que pasen desapercibidos, están
+							ahí.
+						</p>
+						<a id="continue-reading"
+							href="https://www.amazon.es/gp/customer-reviews/R1T2SB8HKHN9H5/ref=cm_cr_arp_d_rvw_ttl?ie=UTF8&ASIN=B09NR9PP1W"
+							target="_blank">Reseña completa</a>
+					</blockquote>
+					<!--<figcaption class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></figcaption>-->
+				</figure>
+				<hr />
+			</div>
+			<div class="">
+				<figure class="single-testimonial">
+					<blockquote class="blockquote fs-6">
+						<div id="rating-title">
+							<span class="rating-stars">
+								<span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+									class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+									class="fa fa-star checked"></span>
+							</span>
+							<span class="fw-bolder mx-auto">Vibrante, con ritmo, sin paños calientes. La vida.</span>
+						</div>
+						<p class="text-muted">22 de enero de 2022</p>
+						<p class="verified-purchase">Compra verificada</p>
+						<p>
+							Te engancha de principio a fin, es fantástica. Cada uno se puede
+							ver reflejado en algún momento de la historia. En este caso, el
+							autor contradice a Jorge Drexler y ama tanto la trama como el
+							desenlace.
+						</p>
+						<a id="continue-reading"
+							href="https://www.amazon.es/gp/customer-reviews/R7GSMAWRYCXS2/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B09NR9PP1W"
+							target="_blank">Reseña completa</a>
+					</blockquote>
+					<!--<figcaption class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></figcaption>-->
+				</figure>
+				<hr />
+			</div>
+			<div class="">
+				<figure class="single-testimonial">
+					<blockquote class="blockquote fs-6">
+						<div id="rating-title">
+							<span class="rating-stars">
+								<span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+									class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+									class="fa fa-star checked"></span>
+							</span>
+							<span class="fw-bolder mx-auto">¡Increíblemente bueno!</span>
+						</div>
+						<p class="text-muted">19 de enero de 2022</p>
+						<p class="verified-purchase">Compra verificada</p>
+						<p>
+							Una novela que me ha impresionado entre anécdotas y recuerdos
+							por pasado y presente, sin tregua, con una banda sonora propia
+							muy difícil de olvidar (...) Reflexiva, muy psicológica y con un
+							final arriesgado y aplastante. Tiene de todo, (...) desde un
+							punto de vista sincero y crudo. Un libro para leer tranquilos,
+							con mucho que decir, mucha realidad. Magistral la manera en la
+							que está escrito. De esas historias "que traspasan". Increíble
+							lectura.
+						</p>
+						<a id="continue-reading"
+							href="https://www.amazon.es/gp/customer-reviews/RLHMHD6X4O4S8/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B09NR9PP1W"
+							target="_blank">Reseña completa</a>
+					</blockquote>
+					<!--<figcaption class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></figcaption>-->
+				</figure>
+				<hr />
+			</div>
 
-			// When the user clicks on the button, scroll to the top of the document
-			function topFunction() {
-				document.body.scrollTop = 0;
-				document.documentElement.scrollTop = 0;
+			<div class="">
+				<figure class="single-testimonial">
+					<blockquote class="blockquote fs-6">
+						<div id="rating-title">
+							<span class="rating-stars">
+								<span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+									class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+									class="far fa-star"></span>
+							</span>
+							<span class="fw-bolder mx-auto">Ojalá tenga la difusión que merece. Obra redonda para releer
+								y pensar.</span>
+						</div>
+						<p class="text-muted">18 de enero de 2022</p>
+						<p class="verified-purchase">Compra verificada</p>
+						<p>
+							Trama bien trabajada, muy bien escrito y con un final redondo.
+							El punto fuerte, la descripción psicológica de los personajes,
+							muy trabajada, progresiva y pensada. La forma de escribir es
+							elaborada, buscando la reflexión del lector. Es una obra que
+							deja huella. Mi consejo es que, sin duda, le deis una
+							oportunidad. Para mí ha sido un descubrimiento, y en su conjunto
+							es una obra redonda y creíble (aunque sorprendente). Hay
+							talento, te deja con ganas de más.
+						</p>
+						<a id="continue-reading"
+							href="https://www.amazon.es/gp/customer-reviews/R2UITLF9CB94R9/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B09NR9PP1W"
+							target="_blank">Reseña completa</a>
+					</blockquote>
+					<!--<figcaption class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></figcaption>-->
+				</figure>
+				<hr />
+			</div>
+			<div class="">
+				<figure class="single-testimonial">
+					<blockquote class="blockquote fs-6">
+						<div id="rating-title">
+							<span class="rating-stars">
+								<span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+									class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+									class="fa fa-star checked"></span>
+							</span>
+							<span class="fw-bolder mx-auto">Perfecto regalo o autoregalo.</span>
+						</div>
+						<p class="text-muted">8 de enero de 2022</p>
+						<p class="verified-purchase">Compra verificada</p>
+						<p>
+							Me ha encantado. Novela psicológica que te atrapa desde la
+							primera página. Perfectamente escrita, cuidando cada detalle del
+							perfil de los protagonistas, sus relaciones, así como de los
+							ambientes urbanos por los que transitan, que te va llevando poco
+							a poco hacia un sorprendente e inesperado final. La profundidad
+							de los hechos nos acompaña a lo largo de cada página,
+							invitándonos a reflexionar sobre nuestra propia experiencia
+							vital.
+						</p>
+						<a id="continue-reading"
+							href="https://www.amazon.es/gp/customer-reviews/R3V6S3LDDKPYYA/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B09NR9PP1W"
+							target="_blank">Reseña completa</a>
+					</blockquote>
+					<!--<figcaption class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></figcaption>-->
+				</figure>
+				<hr />
+			</div>
+
+			<div class="">
+				<figure class="single-testimonial">
+					<blockquote class="blockquote fs-6">
+						<div id="rating-title">
+							<span class="rating-stars">
+								<span class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+									class="fa fa-star checked"></span><span class="fa fa-star checked"></span><span
+									class="fa fa-star checked"></span>
+							</span>
+							<span class="fw-bolder mx-auto">De los mejores libros que he leído últimamente.</span>
+						</div>
+						<p class="text-muted">19 de diciembre de 2021</p>
+						<p class="verified-purchase">Compra verificada</p>
+						<p>
+							Una historia emocionante, dura y muy bien narrada. Uno de los
+							mejores libros que he leído en los últimos tiempos. Sorpresa muy
+							agradable.
+						</p>
+						<a id="continue-reading"
+							href="https://www.amazon.es/gp/customer-reviews/R2GUJ6L58RD3IP/ref=cm_cr_dp_d_rvw_ttl?ie=UTF8&ASIN=B09NR9PP1W"
+							target="_blank">Reseña completa</a>
+					</blockquote>
+					<!--<figcaption class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></figcaption>-->
+				</figure>
+				<hr />
+			</div>
+		</div>
+	</section>
+
+	<!-- <section class="text"> -->
+	<!-- <p class="description-2">Opiniones de clientes</p> -->
+	<!-- <span class="rating-stars-global"> -->
+	<!-- <span class="fa fa-star checked"></span> -->
+	<!-- <span class="fa fa-star checked"></span> -->
+	<!-- <span class="fa fa-star checked"></span> -->
+	<!-- <span class="fa fa-star checked"></span> -->
+	<!-- <span class="fa fa-star checked"></span> -->
+	<!-- </span> -->
+	<!-- <span class="global-opinions-text" style="margin-left:20px;">7 valoraciones globales (4,8 de 5)</span> -->
+	<!-- <hr style="border:2px solid #000;" /> -->
+
+	<!-- <div class="row"> -->
+	<!-- <div class="side"> -->
+	<!-- <div>5 estrellas</div> -->
+	<!-- </div> -->
+	<!-- <div class="middle"> -->
+	<!-- <div class="bar-container"> -->
+	<!-- <div class="bar-5"></div> -->
+	<!-- </div> -->
+	<!-- </div> -->
+	<!-- <div class="side right"> -->
+	<!-- <div>6</div> -->
+	<!-- </div> -->
+	<!-- <div class="side"> -->
+	<!-- <div>4 estrellas</div> -->
+	<!-- </div> -->
+	<!-- <div class="middle"> -->
+	<!-- <div class="bar-container"> -->
+	<!-- <div class="bar-4"></div> -->
+	<!-- </div> -->
+	<!-- </div> -->
+	<!-- <div class="side right"> -->
+	<!-- <div>1</div> -->
+	<!-- </div> -->
+	<!-- <div class="side"> -->
+	<!-- <div>3 estrellas</div> -->
+	<!-- </div> -->
+	<!-- <div class="middle"> -->
+	<!-- <div class="bar-container"> -->
+	<!-- <div class="bar-3"></div> -->
+	<!-- </div> -->
+	<!-- </div> -->
+	<!-- <div class="side right"> -->
+	<!-- <div>0</div> -->
+	<!-- </div> -->
+	<!-- <div class="side"> -->
+	<!-- <div>2 estrellas</div> -->
+	<!-- </div> -->
+	<!-- <div class="middle"> -->
+	<!-- <div class="bar-container"> -->
+	<!-- <div class="bar-2"></div> -->
+	<!-- </div> -->
+	<!-- </div> -->
+	<!-- <div class="side right"> -->
+	<!-- <div>0</div> -->
+	<!-- </div> -->
+	<!-- <div class="side"> -->
+	<!-- <div>1 estrella</div> -->
+	<!-- </div> -->
+	<!-- <div class="middle"> -->
+	<!-- <div class="bar-container"> -->
+	<!-- <div class="bar-1"></div> -->
+	<!-- </div> -->
+	<!-- </div> -->
+	<!-- <div class="side right"> -->
+	<!-- <div>0</div> -->
+	<!-- </div> -->
+	<!-- </div> -->
+	<!-- </section> -->
+
+	<section class="row text" style="margin-bottom: -100px">
+		<p class="description-2 text-uppercase pb-3">
+			<i class="fas fa-bookmark"></i><span class="m-4">El autor</span>
+		</p>
+	</section>
+
+	<section class="row align-items-center bio">
+		<div class="col-12 col-md-4">
+			<img src="./assets/img/YO2016bisreducida_BN.jpg" width="200" />
+		</div>
+		<div class="col-12 col-md-8">
+			<hr class="hr-bio" />
+			<p class="description-2">
+				<strong>Chema Barberarena</strong> nació en Santoña (Cantabria), el 27
+				de septiembre de 1984.<br /><br />Músico de vocación, su carácter
+				artístico y creativo siempre ha destacado en su trayectoria vital.
+				Amante del dibujo y la lectura, se embarca ahora en la que es su
+				primera novela, un relato psicológico, crudo y descarnado, sobre las
+				relaciones familiares y los recuerdos.
+			</p>
+			<hr class="hr-bio" />
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="social">
+			<a href="https://www.facebook.com/chemabarberarenaoficial" target="_blank"><i
+					class="fab fa-facebook-f"></i></a>
+			<a href="https://www.instagram.com/chemabarberarena/" target="_blank"><i class="fab fa-instagram"></i></a>
+			<a href="mailto:chemabarberarena@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+		</div>
+		<div>
+			<div class="credits">
+				<span style="font-size: 16px; font-family: 'Arial Black', arial"><span
+						class="defenes">DEFENES</span><span class="tra">TRA</span><span
+						class="cion">CIÓN</span></span><br />
+				<span>Chema Barberarena, <span id="fecha"></span></span>
+				<br /><br />
+				<span>Licencia: Creative Commons Attribution-NonCommercial-NoDerivatives
+					4.0</span><br />
+				<span>Código de registro: <i>2111299929229</i></span><br />
+				<span>URL información pública:
+					<i><a href="https://www.safecreative.org/work/2111299929229-defenestracion"
+							target="_blank">https://www.safecreative.org/work/2111299929229-defenestracion</a></i></span><br />
+			</div>
+		</div>
+	</footer>
+
+	<script>
+		AOS.init();
+	</script>
+
+	<script>
+		var mybutton = document.getElementById("myBtn");
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function () {
+			scrollFunction();
+		};
+
+		function scrollFunction() {
+			if (
+				document.body.scrollTop > 20 ||
+				document.documentElement.scrollTop > 20
+			) {
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";
 			}
-			
-			//Current year in footer
-			var ano = (new Date).getFullYear();
-			$(document).ready(function() {
-				$("#fecha").text( ano );
-			});
-		</script>
-		
-	</body>
-	
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+
+		//Current year in footer
+		var ano = new Date().getFullYear();
+		$(document).ready(function () {
+			$("#fecha").text(ano);
+		});
+	</script>
+</body>
+
 </html>
