@@ -476,7 +476,7 @@ body {
 @media screen and (max-width: 600px) {
   .buy-book > div {
     border-bottom: none;
-    padding: 0;
+    padding: 10px;
   }
   .buy-book img {
     width: 50px;
@@ -487,6 +487,7 @@ body {
   .buy-book .button-primary,
   .button-secondary {
     padding: 20px 15px 20px 20px !important;
+    width: 100%;
   }
   .buy-book .i-want {
     display: none;
@@ -519,11 +520,11 @@ body {
 .testimonials {
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 .testimonials > div {
   padding: 0 20px 0 20px;
-  width: 45%;
+  _width: 45%;
 }
 @media screen and (max-width: 600px) {
   #rating-title {
@@ -540,7 +541,7 @@ body {
 }
 #rating-title {
   font-size: 110%;
-  height: 4.5em;
+  _height: 4.5em;
 }
 #continue-reading {
   background-color: var(--orange) !important;
