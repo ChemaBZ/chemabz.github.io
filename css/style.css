@@ -613,12 +613,12 @@ body {
 
 /* Individual bars */
 .bar-5 {
-  width: 87%;
+  width: 90%;
   height: 18px;
   background-color: orange;
 }
 .bar-4 {
-  width: 13%;
+  width: 10%;
   height: 18px;
   background-color: orange;
 }
